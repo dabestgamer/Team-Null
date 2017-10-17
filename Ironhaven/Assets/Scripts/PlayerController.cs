@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 	public bool jump = false;
 
 	public float moveForce = 200f;
-	public float maxSpeed = 3f;
+	public float runSpeed = 10f;
 	public float jumpForce = 500f;
 	public Transform groundCheck;
 
@@ -37,25 +37,22 @@ public class PlayerController : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		float moveHorizontal = Input.GetAxis ("Horizontal");
+		if(Input.GetKey("right"))
+		{
+			if (!facingRight)
+			{
+				Flip ();
+			}
 
-		if (moveHorizontal * rb2d.velocity.x < maxSpeed)
-		{
-			rb2d.AddForce (Vector2.right * moveHorizontal * moveForce);
+			transform.Translate (runSpeed * Time.deltaTime, 0.0f, 0.0f);
 		}
-
-		if(Mathf.Abs(rb2d.velocity.x) > maxSpeed)
+		if(Input.GetKey("left"))
 		{
-			rb2d.velocity = new Vector2 (Mathf.Sign (rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
-		}
-
-		if (moveHorizontal > 0 && !facingRight)
-		{
-			Flip ();
-		}
-		else if (moveHorizontal < 0 && facingRight)
-		{
-			Flip ();
+			if (facingRight)
+			{
+				Flip ();
+			}
+			transform.Translate (runSpeed * Time.deltaTime * -1, 0.0f, 0.0f);
 		}
 
 		if (jump)

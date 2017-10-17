@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 107
+  controlID: 11
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 47
+  controlID: 12
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 48
+  controlID: 13
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -433,19 +433,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d0260000
-    m_LastClickedID: 9936
-    m_ExpandedIDs: 00000000d026000000ca9a3bffffff7f
+    m_SelectedIDs: 60260000
+    m_LastClickedID: 9824
+    m_ExpandedIDs: 000000004c26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -473,7 +473,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 118}
     m_SelectedIDs: da3e0000
     m_LastClickedID: 16090
-    m_ExpandedIDs: 00000000d0260000
+    m_ExpandedIDs: 000000004c260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,7 +500,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: cc250000fa250000f82400000e2200006c230000ce21000052230000e0210000de210000f2210000fc21000008220000e63e0000de3e0000e23e0000da3e000064220000f6210000d02a0000c82a0000c42a0000782c0000862c0000242c0000f42c0000962d00000a2d0000e82c0000742d00003a2d00009c2d0000582d0000fe2c0000222d0000682d0000c22d00007c2d0000ae2c0000842d00006c2d00005625000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -589,9 +589,9 @@ MonoBehaviour:
     height: 343
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 8213ffff
     m_LastClickedID: 0
-    m_ExpandedIDs: 4efbffff00000000
+    m_ExpandedIDs: 18fcffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -675,9 +675,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 26.535583
+    m_Target: 10.495425
     speed: 2
-    m_Value: 26.535583
+    m_Value: 10.495425
   m_Ortho:
     m_Target: 1
     speed: 2
