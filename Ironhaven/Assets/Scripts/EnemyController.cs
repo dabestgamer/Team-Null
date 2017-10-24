@@ -29,6 +29,10 @@ public class EnemyController : MonoBehaviour {
 	public bool equalX; //checks if player and enemy are aligned horizontally
 	public bool equalY; //checks if player and enemy are aligned vertically
 	public Vector3 targetOnDifferentY; //for grounded enemies so they don't constantly try to jump awkwardly at player
+	public float hurtTime = 0.5f;
+	public float hurtTimerCountdown;
+
+	private Transform testHitBox; //***TEST FOR ATTACKING HITBOX***
 
 	// Use this for initialization
 	void Awake ()
@@ -47,6 +51,9 @@ public class EnemyController : MonoBehaviour {
 		patrolLeftEnd = new Vector3 (patrolMin, transform.position.y, 0); //left bound of patrol area
 		patrolRightEnd = new Vector3 (patrolMax, transform.position.y, 0); //right bound of patrol area
 		isHurt = false;
+
+		testHitBox = this.transform.Find("AttackBox"); //***TEST FOR ATTACKING HITBOX***
+		testHitBox.gameObject.SetActive (false); //Makes hitbox (displayed red) not appear on startup
 	}
 	
 	// Update is called once per frame
@@ -59,6 +66,7 @@ public class EnemyController : MonoBehaviour {
 		rangeDetect (); //checks if player is in range
 		checkVertical (); //checks if player is vertically aligned with enemy
 		checkHorizontal (); //checks if player is horizontally aligned with enemy
+		checkHurt(); //checks if enemy is hurt
 		if (!isHurt) //cannot do anything while hurt
 		{
 			if (inRange) //if player is in range, then action is taken
@@ -69,6 +77,14 @@ public class EnemyController : MonoBehaviour {
 			{
 				patrol ();
 			}
+		}
+		if (hurtTimerCountdown > 0)
+		{
+			hurtTimerCountdown -= Time.deltaTime;
+		}
+		if (hurtTimerCountdown <= 0)
+		{
+			isHurt = false;
 		}
 	}
 
@@ -111,6 +127,7 @@ public class EnemyController : MonoBehaviour {
 		else
 		{
 			inAttackRange = false;
+			testHitBox.gameObject.SetActive (false);
 		}
 	}
 
@@ -162,7 +179,7 @@ public class EnemyController : MonoBehaviour {
 	{
 		if (inAttackRange) //code for attack
 		{
-			
+			testHitBox.gameObject.SetActive (true);
 		}
 		else //approaches player while they are in range
 		{
@@ -217,6 +234,18 @@ public class EnemyController : MonoBehaviour {
 			Vector3 enemyScale = transform.localScale;
 			enemyScale.x *= -1;
 			transform.localScale = enemyScale;
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other) //detects collision
+	{
+		if (other.gameObject.tag == "Player") //if enemy's active hitbox touches player
+		{
+			Debug.Log ("Hit player!");
+		}
+		if (other.gameObject.tag == "PlayerWeapon") //if player's active hitbox hits enemy
+		{
+			Debug.Log ("I got hit!");
 		}
 	}
 }

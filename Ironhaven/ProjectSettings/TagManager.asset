@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Ghost
+  - PlayerWeapon
+  - EnemyWeapon
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Ground
   - PlayerAttack
   - Enemy
-  - 
+  - EnemyAttack
   - 
   - 
   - 
