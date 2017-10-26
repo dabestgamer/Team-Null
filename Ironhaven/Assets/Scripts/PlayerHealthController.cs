@@ -28,7 +28,7 @@ public class PlayerHealthController : MonoBehaviour {
 		}
 	}
 
-	void takeDamage(int damage) //inflicts damage to player
+	public void takeDamage(int damage) //inflicts damage to player
 	{
 		currentHP -= damage;
 		if (currentHP <= 0) //player dies

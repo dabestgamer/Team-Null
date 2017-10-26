@@ -29,6 +29,18 @@ public class EnemyController : MonoBehaviour {
 	public bool equalX; //checks if player and enemy are aligned horizontally
 	public bool equalY; //checks if player and enemy are aligned vertically
 	public Vector3 targetOnDifferentY; //for grounded enemies so they don't constantly try to jump awkwardly at player
+	public float hurtTime = 0.5f;
+	public float hurtTimerCountdown;
+	private PlayerHealthController playerHP;
+	public bool attacking;
+	public float attackTime;
+	public float attackTimerCountdown;
+	public float attackCooldown;
+	public float attackCooldownTimer;
+	public float attackStartUpTime;
+	public float attackStartUpTimer;
+
+	private Transform testHitBox; //***TEST FOR ATTACKING HITBOX***
 
 	// Use this for initialization
 	void Awake ()
@@ -47,6 +59,9 @@ public class EnemyController : MonoBehaviour {
 		patrolLeftEnd = new Vector3 (patrolMin, transform.position.y, 0); //left bound of patrol area
 		patrolRightEnd = new Vector3 (patrolMax, transform.position.y, 0); //right bound of patrol area
 		isHurt = false;
+
+		testHitBox = this.transform.Find("AttackBox"); //***TEST FOR ATTACKING HITBOX***
+		testHitBox.gameObject.SetActive (false); //Makes hitbox (displayed red) not appear on startup
 	}
 	
 	// Update is called once per frame
@@ -59,17 +74,19 @@ public class EnemyController : MonoBehaviour {
 		rangeDetect (); //checks if player is in range
 		checkVertical (); //checks if player is vertically aligned with enemy
 		checkHorizontal (); //checks if player is horizontally aligned with enemy
+		checkHurt(); //checks if enemy is hurt
 		if (!isHurt) //cannot do anything while hurt
 		{
 			if (inRange) //if player is in range, then action is taken
 			{
 				enemyFight ();
 			}
-			else //patrols if player is not in range
+			else if(!attacking) //patrols if player is not in range
 			{
 				patrol ();
 			}
 		}
+		countdownTimer ();
 	}
 
 	void setName() //sets the name of enemy
@@ -89,6 +106,9 @@ public class EnemyController : MonoBehaviour {
 			enemyMaxSpeed = 2f;
 			enemySpeed = enemyMaxSpeed;
 			patrolRange = 2f;
+			attackTime = 0.5f;
+			attackCooldown = 1f;
+			attackStartUpTimer = 0.5f;
 		}
 	}
 
@@ -162,9 +182,25 @@ public class EnemyController : MonoBehaviour {
 	{
 		if (inAttackRange) //code for attack
 		{
-			
+			attackStartUpTimer = attackStartUpTime;
+			if (attackStartUpTimer <= 0 && !attacking && attackCooldownTimer <= 0)
+			{
+				if (player.transform.position.x < transform.position.x && isFacingRight)
+				{
+					Flip ();
+				}
+				else if(player.transform.position.x > transform.position.x && !isFacingRight)
+				{
+					Flip ();
+				}
+
+				testHitBox.gameObject.SetActive (true);
+				attacking = true;
+				attackTimerCountdown = attackTime;
+				attackCooldownTimer = attackCooldown;
+			}
 		}
-		else //approaches player while they are in range
+		else if(!attacking && !isHurt) //approaches player while they are in range
 		{
 			if (player.transform.position.x < transform.position.x && isFacingRight)
 			{
@@ -217,6 +253,57 @@ public class EnemyController : MonoBehaviour {
 			Vector3 enemyScale = transform.localScale;
 			enemyScale.x *= -1;
 			transform.localScale = enemyScale;
+		}
+	}
+
+	void countdownTimer()
+	{
+		if (hurtTimerCountdown > 0)
+		{
+			hurtTimerCountdown -= Time.deltaTime;
+		}
+		if (hurtTimerCountdown <= 0)
+		{
+			isHurt = false;
+		}
+
+		if (attackTimerCountdown > 0)
+		{
+			attackTimerCountdown -= Time.deltaTime;
+		}
+		else
+		{
+			attacking = false;
+			testHitBox.gameObject.SetActive (false);
+		}
+
+		if (attackCooldownTimer > 0 && !attacking)
+		{
+			attackCooldownTimer -= Time.deltaTime;
+		}
+
+		if (attackStartUpTimer > 0)
+		{
+			attackStartUpTimer -= Time.deltaTime;
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other) //detects collision
+	{
+		if (other.gameObject.tag == "Player") //if enemy's active hitbox touches player
+		{
+			Debug.Log ("Enemy: Hit player!");
+			playerHP = other.gameObject.GetComponent<PlayerHealthController> ();
+			if (enemyName == "Ghost")
+			{
+				playerHP.takeDamage (1);
+			}
+		}
+		if (other.gameObject.tag == "PlayerWeapon" && !isHurt) //if player's active hitbox hits enemy
+		{
+			Debug.Log ("Enemy: I got hit by the player!");
+			isHurt = true;
+			hurtTimerCountdown = hurtTime;
 		}
 	}
 }
