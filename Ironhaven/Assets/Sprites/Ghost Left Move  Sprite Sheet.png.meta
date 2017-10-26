@@ -1,9 +1,71 @@
 fileFormatVersion: 2
 guid: c30ad577c13078c4695815e418e504b0
-timeCreated: 1508800284
+timeCreated: 1509046776
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Ghost Left Move  Sprite Sheet_0
+    21300002: Ghost Left Move  Sprite Sheet_1
+    21300004: Ghost Left Move  Sprite Sheet_2
+    21300006: Ghost Left Move  Sprite Sheet_3
+    21300008: Ghost Left Move  Sprite Sheet_4
+    21300010: Ghost Left Move  Sprite Sheet_5
+    21300012: Ghost Left Move  Sprite Sheet_6
+    21300014: Ghost Left Move  Sprite Sheet_7
+    21300016: Ghost Left Move  Sprite Sheet_8
+    21300018: Ghost Left Move  Sprite Sheet_9
+    21300020: Ghost Left Move  Sprite Sheet_10
+    21300022: Ghost Left Move  Sprite Sheet_11
+    21300024: Ghost Left Move  Sprite Sheet_12
+    21300026: Ghost Left Move  Sprite Sheet_13
+    21300028: Ghost Left Move  Sprite Sheet_14
+    21300030: Ghost Left Move  Sprite Sheet_15
+    21300032: Ghost Left Move  Sprite Sheet_16
+    21300034: Ghost Left Move  Sprite Sheet_17
+    21300036: Ghost Left Move  Sprite Sheet_18
+    21300038: Ghost Left Move  Sprite Sheet_19
+    21300040: Ghost Left Move  Sprite Sheet_20
+    21300042: Ghost Left Move  Sprite Sheet_21
+    21300044: Ghost Left Move  Sprite Sheet_22
+    21300046: Ghost Left Move  Sprite Sheet_23
+    21300048: Ghost Left Move  Sprite Sheet_24
+    21300050: Ghost Left Move  Sprite Sheet_25
+    21300052: Ghost Left Move  Sprite Sheet_26
+    21300054: Ghost Left Move  Sprite Sheet_27
+    21300056: Ghost Left Move  Sprite Sheet_28
+    21300058: Ghost Left Move  Sprite Sheet_29
+    21300060: Ghost Left Move  Sprite Sheet_30
+    21300062: Ghost Left Move  Sprite Sheet_31
+    21300064: Ghost Left Move  Sprite Sheet_32
+    21300066: Ghost Left Move  Sprite Sheet_33
+    21300068: Ghost Left Move  Sprite Sheet_34
+    21300070: Ghost Left Move  Sprite Sheet_35
+    21300072: Ghost Left Move  Sprite Sheet_36
+    21300074: Ghost Left Move  Sprite Sheet_37
+    21300076: Ghost Left Move  Sprite Sheet_38
+    21300078: Ghost Left Move  Sprite Sheet_39
+    21300080: Ghost Left Move  Sprite Sheet_40
+    21300082: Ghost Left Move  Sprite Sheet_41
+    21300084: Ghost Left Move  Sprite Sheet_42
+    21300086: Ghost Left Move  Sprite Sheet_43
+    21300088: Ghost Left Move  Sprite Sheet_44
+    21300090: Ghost Left Move  Sprite Sheet_45
+    21300092: Ghost Left Move  Sprite Sheet_46
+    21300094: Ghost Left Move  Sprite Sheet_47
+    21300096: Ghost Left Move  Sprite Sheet_48
+    21300098: Ghost Left Move  Sprite Sheet_49
+    21300100: Ghost Left Move  Sprite Sheet_50
+    21300102: Ghost Left Move  Sprite Sheet_51
+    21300104: Ghost Left Move  Sprite Sheet_52
+    21300106: Ghost Left Move  Sprite Sheet_53
+    21300108: Ghost Left Move  Sprite Sheet_54
+    21300110: Ghost Left Move  Sprite Sheet_55
+    21300112: Ghost Left Move  Sprite Sheet_56
+    21300114: Ghost Left Move  Sprite Sheet_57
+    21300116: Ghost Left Move  Sprite Sheet_58
+    21300118: Ghost Left Move  Sprite Sheet_59
+    21300120: Ghost Left Move  Sprite Sheet_60
+    21300122: Ghost Left Move  Sprite Sheet_61
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -39,7 +101,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,9 +125,885 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 3733
+        width: 328
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 3738
+        width: 328
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 3743
+        width: 327
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 3747
+        width: 328
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 5683
+        y: 3752
+        width: 328
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 6887
+        y: 3757
+        width: 328
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 8088
+        y: 3762
+        width: 326
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 9290
+        y: 3766
+        width: 328
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 3243
+        width: 328
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 3248
+        width: 324
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 3252
+        width: 328
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4356
+        y: 3257
+        width: 328
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5560
+        y: 3262
+        width: 323
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 6761
+        y: 3267
+        width: 326
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 7962
+        y: 3269
+        width: 328
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 9166
+        y: 3273
+        width: 323
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 2753
+        width: 323
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 2758
+        width: 327
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 2760
+        width: 324
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4232
+        y: 2763
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 5431
+        y: 2768
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 6635
+        y: 2772
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 7835
+        y: 2777
+        width: 322
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 9038
+        y: 2781
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2258
+        width: 319
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 2263
+        width: 323
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 2268
+        width: 321
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 4104
+        y: 2272
+        width: 318
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 5303
+        y: 2277
+        width: 322
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 6506
+        y: 2282
+        width: 319
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 7710
+        y: 2287
+        width: 318
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 8909
+        y: 2291
+        width: 319
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1763
+        width: 318
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1758
+        width: 321
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 1754
+        width: 323
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 4004
+        y: 1749
+        width: 318
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 1749
+        width: 322
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 6421
+        y: 1744
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 7629
+        y: 1739
+        width: 324
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 8838
+        y: 1735
+        width: 326
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1206
+        width: 327
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1202
+        width: 324
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 1197
+        width: 326
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 1197
+        width: 328
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 5141
+        y: 1192
+        width: 328
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 6350
+        y: 1187
+        width: 328
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 1187
+        width: 330
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 8768
+        y: 1183
+        width: 330
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 645
+        width: 328
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 636
+        width: 325
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 631
+        width: 328
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 3832
+        y: 621
+        width: 324
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 5031
+        y: 612
+        width: 328
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 6235
+        y: 602
+        width: 323
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 7434
+        y: 593
+        width: 324
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 8638
+        y: 588
+        width: 323
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 50
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 45
+        width: 318
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 36
+        width: 323
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 26
+        width: 319
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 4898
+        y: 21
+        width: 319
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Left Move  Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 6102
+        y: 12
+        width: 318
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

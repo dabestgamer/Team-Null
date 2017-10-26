@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour {
 
 	private Animator animator;
 	private GameObject player;
+	private PlayerController playerCharacter;
+	public Transform groundCheck; //checks if grounded
 	public string enemyName; //stores name of enemy
 	public float enemyMaxSpeed; //stores enemy max speed
 	public float enemySpeed;
@@ -29,7 +31,7 @@ public class EnemyController : MonoBehaviour {
 	public bool equalX; //checks if player and enemy are aligned horizontally
 	public bool equalY; //checks if player and enemy are aligned vertically
 	public Vector3 targetOnDifferentY; //for grounded enemies so they don't constantly try to jump awkwardly at player
-	public float hurtTime = 0.5f;
+	public float hurtTime;
 	public float hurtTimerCountdown;
 	private PlayerHealthController playerHP;
 	public bool attacking;
@@ -39,6 +41,13 @@ public class EnemyController : MonoBehaviour {
 	public float attackCooldownTimer;
 	public float attackStartUpTime;
 	public float attackStartUpTimer;
+	public bool grounded;
+
+	public float knockbackForce;
+
+	public Material baseMaterial;
+	public Material damageMaterial;
+	private MeshRenderer enemyMesh;
 
 	private Transform testHitBox; //***TEST FOR ATTACKING HITBOX***
 
@@ -59,6 +68,11 @@ public class EnemyController : MonoBehaviour {
 		patrolLeftEnd = new Vector3 (patrolMin, transform.position.y, 0); //left bound of patrol area
 		patrolRightEnd = new Vector3 (patrolMax, transform.position.y, 0); //right bound of patrol area
 		isHurt = false;
+		grounded = false;
+
+		enemyMesh = GetComponent<MeshRenderer> ();
+
+		hurtTime = 0.5f;
 
 		testHitBox = this.transform.Find("AttackBox"); //***TEST FOR ATTACKING HITBOX***
 		testHitBox.gameObject.SetActive (false); //Makes hitbox (displayed red) not appear on startup
@@ -71,6 +85,9 @@ public class EnemyController : MonoBehaviour {
 		{
 			player = GameObject.FindGameObjectWithTag ("Player");
 		}
+
+		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));
+
 		rangeDetect (); //checks if player is in range
 		checkVertical (); //checks if player is vertically aligned with enemy
 		checkHorizontal (); //checks if player is horizontally aligned with enemy
@@ -109,6 +126,7 @@ public class EnemyController : MonoBehaviour {
 			attackTime = 0.5f;
 			attackCooldown = 1f;
 			attackStartUpTimer = 0.5f;
+			knockbackForce = 200f;
 		}
 	}
 
@@ -233,15 +251,19 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
-	void checkHurt()
+	void checkHurt() //checks if enemy is hurt
 	{
 		if (isHurt)
 		{
+			enemyMesh.material = damageMaterial; //enemy is red while hurt
 			enemySpeed = 0;
 		}
-		else
+		else //normal colors otherwise
 		{
+			enemyMesh.material = baseMaterial;
 			enemySpeed = enemyMaxSpeed;
+			rb2d.velocity = Vector3.zero;
+			//rb2d.angularVelocity = Vector3.zero;
 		}
 	}
 
@@ -256,7 +278,7 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
-	void countdownTimer()
+	void countdownTimer() //all timers decrement
 	{
 		if (hurtTimerCountdown > 0)
 		{
@@ -292,16 +314,27 @@ public class EnemyController : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "Player") //if enemy's active hitbox touches player
 		{
-			Debug.Log ("Enemy: Hit player!");
+			//Debug.Log ("Enemy: Hit player!");
+			playerCharacter = other.gameObject.GetComponent<PlayerController> ();
 			playerHP = other.gameObject.GetComponent<PlayerHealthController> ();
-			if (enemyName == "Ghost")
+
+			Vector3 dir = other.transform.position - transform.position;
+			dir.y = 0;
+
+			if (enemyName == "Ghost") //damage inflicted is based on enemy type
 			{
 				playerHP.takeDamage (1);
+			}
+
+			if (other.attachedRigidbody) //knocks player back
+			{
+				//Debug.Log ("Enemy: The player is knocked back!");
+				other.attachedRigidbody.AddForce(dir.normalized * playerCharacter.knockbackForce);
 			}
 		}
 		if (other.gameObject.tag == "PlayerWeapon" && !isHurt) //if player's active hitbox hits enemy
 		{
-			Debug.Log ("Enemy: I got hit by the player!");
+			//Debug.Log ("Enemy: I got hit by the player!");
 			isHurt = true;
 			hurtTimerCountdown = hurtTime;
 		}

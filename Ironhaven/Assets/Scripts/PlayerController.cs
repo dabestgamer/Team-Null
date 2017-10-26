@@ -9,11 +9,11 @@ public class PlayerController : MonoBehaviour
 	public bool attacking;
 	public bool hurt;
 
-	public float moveForce;
-	public float maxRunSpeed;
-	public float runSpeed;
-	public float jumpForce;
-	public Transform groundCheck;
+	public float knockbackForce; //force of knockback
+	public float maxRunSpeed; //maximum run speed of character
+	public float runSpeed; //current runspeed so that it can be adjusted on the fly without overwriting the normal speed
+	public float jumpForce; //jumping force of character
+	public Transform groundCheck; //checks if grounded
 	public float basicAttackTime; //Duration of basic attack
 	public float basicAttackTimerCountdown; //Timer which prevents character for mashing the attack button
 	public float hurtTime;
@@ -22,9 +22,13 @@ public class PlayerController : MonoBehaviour
 	public float attackCooldownTimer;
 
 	private Transform testHitBox; //***TEST FOR ATTACKING HITBOX***
+	public Material baseMaterial;
+	public Material damageMaterial;
+	private MeshRenderer playerMesh;
 
-	public bool grounded = false;
+	public bool grounded;
 	public Rigidbody2D rb2d;
+	private EnemyController enemy;
 	private EnemyHealth enemyHP;
 
 	public float velocity;
@@ -35,9 +39,10 @@ public class PlayerController : MonoBehaviour
 		facingRight = true;
 		jump = false;
 		attacking = false;
-		moveForce = 200f;
+		knockbackForce = 300f;
 		maxRunSpeed = 10f;
 		runSpeed = maxRunSpeed;
+		grounded = false;
 		jumpForce = 500f;
 		basicAttackTime = 0.5f;
 		basicAttackTimerCountdown = 0f;
@@ -45,6 +50,7 @@ public class PlayerController : MonoBehaviour
 		hurtTimerCountdown = 0f;
 		attackCooldown = 0.5f;
 		attackCooldownTimer = 0;
+		playerMesh = GetComponent<MeshRenderer> ();
 
 		rb2d = GetComponent<Rigidbody2D> ();
 		testHitBox = this.transform.Find("AttackBox"); //***TEST FOR ATTACKING HITBOX***
@@ -56,8 +62,8 @@ public class PlayerController : MonoBehaviour
 	{
 		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));
 
-		checkHurt ();
-		if (Input.GetButtonDown ("Jump") && grounded) //only allows jumping while the player is on the ground and the jump button is pressed, so no mid-air jumps are done
+		checkHurt (); //checks if player is hurt
+		if (Input.GetButtonDown ("Jump") && grounded && !hurt) //only allows jumping while the player is on the ground and the jump button is pressed, so no mid-air jumps are done
 		{
 			jump = true;
 		}
@@ -115,7 +121,7 @@ public class PlayerController : MonoBehaviour
 		transform.localScale = theScale;
 	}
 
-	void countdownTimer()
+	void countdownTimer() //timer decrement
 	{
 		if (basicAttackTimerCountdown > 0) //ensures attack goes for specific duration
 		{
@@ -142,14 +148,16 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
-	void checkHurt()
+	void checkHurt() //checks if hurt
 	{
-		if (hurt)
+		if (hurt) //player is red while hurt
 		{
+			playerMesh.material = damageMaterial;
 			runSpeed = 0;
 		}
-		else
+		else //normal colors otherwise
 		{
+			playerMesh.material = baseMaterial;
 			runSpeed = maxRunSpeed;
 		}
 	}
@@ -158,13 +166,22 @@ public class PlayerController : MonoBehaviour
 	{
 		if (other.gameObject.layer == 11) //if player's active hitbox hits enemy
 		{
-			Debug.Log ("Player: Hit an enemy!");
+			//Debug.Log ("Player: Hit an enemy!");
+			enemy = other.gameObject.GetComponent<EnemyController>();
 			enemyHP = other.gameObject.GetComponent<EnemyHealth> ();
 			enemyHP.addDamage (1);
+
+			Vector3 dir = other.transform.position - transform.position;
+			dir.y = 0;
+
+			if (other.attachedRigidbody) //knocks enemy back
+			{
+				other.attachedRigidbody.AddForce(dir.normalized * enemy.knockbackForce);
+			}
 		}
 		if (other.gameObject.tag == "EnemyWeapon" && !hurt) //if enemy's active hitbox touches player
 		{
-			Debug.Log ("Player: Hit by the enemy!");
+			//Debug.Log ("Player: Hit by the enemy!");
 			hurt = true;
 			hurtTimerCountdown = hurtTime;
 		}

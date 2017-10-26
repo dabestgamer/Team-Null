@@ -22,10 +22,10 @@ public class PlayerHealthController : MonoBehaviour {
 		}
 
 		//The following is only to test dealing damage, will be commented out for actual game
-		if (Input.GetKeyDown ("q") && !this.transform.GetComponent<PlayerController>().hurt)
+		/*if (Input.GetKeyDown ("q") && !this.transform.GetComponent<PlayerController>().hurt)
 		{
 			damageTest ();
-		}
+		}*/
 	}
 
 	public void takeDamage(int damage) //inflicts damage to player

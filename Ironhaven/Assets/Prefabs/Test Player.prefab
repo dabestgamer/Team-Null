@@ -147,7 +147,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1124741809414854}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
@@ -289,7 +289,7 @@ MonoBehaviour:
   jump: 0
   attacking: 0
   hurt: 0
-  moveForce: 200
+  knockbackForce: 0
   maxRunSpeed: 10
   runSpeed: 10
   jumpForce: 500
@@ -300,6 +300,8 @@ MonoBehaviour:
   hurtTimerCountdown: 0.5
   attackCooldown: 0.5
   attackCooldownTimer: 0
+  baseMaterial: {fileID: 2100000, guid: 2e09df02e137bd748b1b2abcc45fbc4c, type: 2}
+  damageMaterial: {fileID: 2100000, guid: d2b12ef919b0e554e9f404e14bb4fb37, type: 2}
   grounded: 0
   rb2d: {fileID: 0}
   velocity: 0
