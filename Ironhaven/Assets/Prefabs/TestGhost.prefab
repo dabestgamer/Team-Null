@@ -85,7 +85,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1779894790847486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.588425, y: -0.13894269, z: 0}
+  m_LocalPosition: {x: 4.62, y: -1.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4025182186507326}
@@ -112,7 +112,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1297747496471008}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   test: 0
-  groundCheck: {fileID: 4864832493153126}
+  groundCheck: {fileID: 0}
   enemyName: 
   enemyMaxSpeed: 0
   enemySpeed: 0
@@ -309,6 +309,10 @@ MonoBehaviour:
   attackStartUpTime: 0
   attackStartUpTimer: 0
   grounded: 0
+  poison: 0
+  poisonTimer: 0
+  poisonTimerCountdown: 0
+  poisonDuration: 0
   knockbackForce: 0
   baseMaterial: {fileID: 2100000, guid: 016794d326f9ad544bb32ec7dc821946, type: 2}
   damageMaterial: {fileID: 2100000, guid: d2b12ef919b0e554e9f404e14bb4fb37, type: 2}
