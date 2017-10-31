@@ -13,7 +13,7 @@ public class EnemyHealth : MonoBehaviour {
 		enemy = GetComponent<EnemyController> ();
 		if (enemy.tag == "Ghost")
 		{
-			maxHP = 2;
+			maxHP = 5;
 		}
 		currentHP = maxHP;
 	}

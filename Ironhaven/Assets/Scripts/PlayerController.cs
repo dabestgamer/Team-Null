@@ -54,6 +54,8 @@ public class PlayerController : MonoBehaviour
 		attackCooldownTimer = 0;
 		playerMesh = GetComponent<MeshRenderer> ();
 
+		inventory = gameObject.GetComponent<Inventory> ();
+
 		rb2d = GetComponent<Rigidbody2D> ();
 		testHitBox = this.transform.Find("AttackBox"); //***TEST FOR ATTACKING HITBOX***
 		testHitBox.gameObject.SetActive (false); //Makes hitbox (displayed red) not appear on startup
@@ -81,7 +83,8 @@ public class PlayerController : MonoBehaviour
 
 		countdownTimer ();
 
-		if (Input.GetButtonDown ("Swap") && (inventory.inventory [0] != null && inventory.inventory [1] != null)) { //Doing the swap only if there are two weapons in the inventory. 
+		if (Input.GetButtonDown ("Swap") && (inventory.inventory [0] != null && inventory.inventory [1] != null))
+		{ //Doing the swap only if there are two weapons in the inventory. 
 			inventory.switchWeapons (inventory.inventory [0], inventory.inventory [1]);
 		}
 
@@ -177,7 +180,29 @@ public class PlayerController : MonoBehaviour
 			//Debug.Log ("Player: Hit an enemy!");
 			enemy = other.gameObject.GetComponent<EnemyController>();
 			enemyHP = other.gameObject.GetComponent<EnemyHealth> ();
-			enemyHP.addDamage (1);
+			if (inventory.inventory [0] != null)
+			{
+				if (inventory.inventory[0].name == "Bone Saw")
+				{
+					enemyHP.addDamage (5);
+				}
+				else if (inventory.inventory[0].name == "Knife") {
+					enemyHP.addDamage (3);
+				}
+				else if (inventory.inventory[0].name == "Scalpel")
+				{
+					enemyHP.addDamage (2);
+				}
+				else if(inventory.inventory[0].name == "Syringe")
+				{
+					enemyHP.addDamage (0);
+					enemy.startPoison ();
+				}
+			}
+			else
+			{
+				enemyHP.addDamage (1);
+			}
 
 			Vector3 dir = other.transform.position - transform.position;
 			dir.y = 0;

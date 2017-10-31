@@ -40,7 +40,7 @@ public class PlayerHealthController : MonoBehaviour {
 
 	void playerDeath() //reloads level on death, can be modified later to do a Game Over screen
 	{
-		SceneManager.LoadScene("Test Level");
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
 	void damageTest() //tests dealing 1 damage to player

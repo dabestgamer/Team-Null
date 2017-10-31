@@ -42,8 +42,15 @@ public class EnemyController : MonoBehaviour {
 	public float attackStartUpTime;
 	public float attackStartUpTimer;
 	public bool grounded;
+	public bool poison;
+
+	public float poisonTimer;
+	public float poisonTimerCountdown;
+	public float poisonDuration;
 
 	public float knockbackForce;
+
+	private EnemyHealth enemyHP;
 
 	public Material baseMaterial;
 	public Material damageMaterial;
@@ -55,6 +62,7 @@ public class EnemyController : MonoBehaviour {
 	void Awake ()
 	{
 		player = GameObject.FindGameObjectWithTag ("Player");
+		enemyHP = GetComponent<EnemyHealth> ();
 		inRange = false; //checks if enemy is detected
 		inAttackRange = false; //checks if enemy is in attacking range
 		rb2d = GetComponent<Rigidbody2D>();
@@ -73,6 +81,8 @@ public class EnemyController : MonoBehaviour {
 		enemyMesh = GetComponent<MeshRenderer> ();
 
 		hurtTime = 0.5f;
+		poisonTimer = 5f;
+		poison = false;
 
 		testHitBox = this.transform.Find("AttackBox"); //***TEST FOR ATTACKING HITBOX***
 		testHitBox.gameObject.SetActive (false); //Makes hitbox (displayed red) not appear on startup
@@ -251,6 +261,13 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
+	public void startPoison()
+	{
+		poison = true;
+		poisonTimerCountdown = 1f;
+		poisonDuration = 0f;
+	}
+
 	void checkHurt() //checks if enemy is hurt
 	{
 		if (isHurt)
@@ -307,6 +324,24 @@ public class EnemyController : MonoBehaviour {
 		if (attackStartUpTimer > 0)
 		{
 			attackStartUpTimer -= Time.deltaTime;
+		}
+
+		if (poisonTimerCountdown > 0)
+		{
+			poisonTimerCountdown -= Time.deltaTime;
+		}
+		else if(poison)
+		{
+			poisonDuration++;
+			enemyHP.addDamage (1);
+			if (poisonDuration > poisonTimer)
+			{
+				poison = false;
+			}
+			else
+			{
+				poisonTimerCountdown = 1f;
+			}
 		}
 	}
 
