@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
 
 	public float velocity;
 
+	public Inventory inventory; // Making a slot to hold the inventory script for use in getting the inventory array that holds the weapons.
+
 	// Use this for initialization
 	void Awake ()
 	{
@@ -78,6 +80,12 @@ public class PlayerController : MonoBehaviour
 		}
 
 		countdownTimer ();
+
+		if (Input.GetButtonDown ("Swap") && (inventory.inventory [0] != null && inventory.inventory [1] != null)) { //Doing the swap only if there are two weapons in the inventory. 
+			inventory.switchWeapons (inventory.inventory [0], inventory.inventory [1]);
+		}
+
+
 	}
 
 	void FixedUpdate()
