@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour {
 
 	private Animator animator;
 	private GameObject player;
+	private PlayerController playerCharacter;
+	public Transform groundCheck; //checks if grounded
 	public string enemyName; //stores name of enemy
 	public float enemyMaxSpeed; //stores enemy max speed
 	public float enemySpeed;
@@ -29,11 +31,38 @@ public class EnemyController : MonoBehaviour {
 	public bool equalX; //checks if player and enemy are aligned horizontally
 	public bool equalY; //checks if player and enemy are aligned vertically
 	public Vector3 targetOnDifferentY; //for grounded enemies so they don't constantly try to jump awkwardly at player
+	public float hurtTime;
+	public float hurtTimerCountdown;
+	private PlayerHealthController playerHP;
+	public bool attacking;
+	public float attackTime;
+	public float attackTimerCountdown;
+	public float attackCooldown;
+	public float attackCooldownTimer;
+	public float attackStartUpTime;
+	public float attackStartUpTimer;
+	public bool grounded;
+	public bool poison;
+
+	public float poisonTimer;
+	public float poisonTimerCountdown;
+	public float poisonDuration;
+
+	public float knockbackForce;
+
+	private EnemyHealth enemyHP;
+
+	public Material baseMaterial;
+	public Material damageMaterial;
+	private MeshRenderer enemyMesh;
+
+	private Transform testHitBox; //***TEST FOR ATTACKING HITBOX***
 
 	// Use this for initialization
 	void Awake ()
 	{
 		player = GameObject.FindGameObjectWithTag ("Player");
+		enemyHP = GetComponent<EnemyHealth> ();
 		inRange = false; //checks if enemy is detected
 		inAttackRange = false; //checks if enemy is in attacking range
 		rb2d = GetComponent<Rigidbody2D>();
@@ -47,6 +76,16 @@ public class EnemyController : MonoBehaviour {
 		patrolLeftEnd = new Vector3 (patrolMin, transform.position.y, 0); //left bound of patrol area
 		patrolRightEnd = new Vector3 (patrolMax, transform.position.y, 0); //right bound of patrol area
 		isHurt = false;
+		grounded = false;
+
+		enemyMesh = GetComponent<MeshRenderer> ();
+
+		hurtTime = 0.5f;
+		poisonTimer = 5f;
+		poison = false;
+
+		testHitBox = this.transform.Find("AttackBox"); //***TEST FOR ATTACKING HITBOX***
+		testHitBox.gameObject.SetActive (false); //Makes hitbox (displayed red) not appear on startup
 	}
 	
 	// Update is called once per frame
@@ -56,20 +95,25 @@ public class EnemyController : MonoBehaviour {
 		{
 			player = GameObject.FindGameObjectWithTag ("Player");
 		}
+
+		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));
+
 		rangeDetect (); //checks if player is in range
 		checkVertical (); //checks if player is vertically aligned with enemy
 		checkHorizontal (); //checks if player is horizontally aligned with enemy
+		checkHurt(); //checks if enemy is hurt
 		if (!isHurt) //cannot do anything while hurt
 		{
 			if (inRange) //if player is in range, then action is taken
 			{
 				enemyFight ();
 			}
-			else //patrols if player is not in range
+			else if(!attacking) //patrols if player is not in range
 			{
 				patrol ();
 			}
 		}
+		countdownTimer ();
 	}
 
 	void setName() //sets the name of enemy
@@ -89,6 +133,10 @@ public class EnemyController : MonoBehaviour {
 			enemyMaxSpeed = 2f;
 			enemySpeed = enemyMaxSpeed;
 			patrolRange = 2f;
+			attackTime = 0.5f;
+			attackCooldown = 1f;
+			attackStartUpTimer = 0.5f;
+			knockbackForce = 200f;
 		}
 	}
 
@@ -162,9 +210,25 @@ public class EnemyController : MonoBehaviour {
 	{
 		if (inAttackRange) //code for attack
 		{
-			
+			attackStartUpTimer = attackStartUpTime;
+			if (attackStartUpTimer <= 0 && !attacking && attackCooldownTimer <= 0)
+			{
+				if (player.transform.position.x < transform.position.x && isFacingRight)
+				{
+					Flip ();
+				}
+				else if(player.transform.position.x > transform.position.x && !isFacingRight)
+				{
+					Flip ();
+				}
+
+				testHitBox.gameObject.SetActive (true);
+				attacking = true;
+				attackTimerCountdown = attackTime;
+				attackCooldownTimer = attackCooldown;
+			}
 		}
-		else //approaches player while they are in range
+		else if(!attacking && !isHurt) //approaches player while they are in range
 		{
 			if (player.transform.position.x < transform.position.x && isFacingRight)
 			{
@@ -197,15 +261,26 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
-	void checkHurt()
+	public void startPoison()
+	{
+		poison = true;
+		poisonTimerCountdown = 1f;
+		poisonDuration = 0f;
+	}
+
+	void checkHurt() //checks if enemy is hurt
 	{
 		if (isHurt)
 		{
+			enemyMesh.material = damageMaterial; //enemy is red while hurt
 			enemySpeed = 0;
 		}
-		else
+		else //normal colors otherwise
 		{
+			enemyMesh.material = baseMaterial;
 			enemySpeed = enemyMaxSpeed;
+			rb2d.velocity = Vector3.zero;
+			//rb2d.angularVelocity = Vector3.zero;
 		}
 	}
 
@@ -217,6 +292,86 @@ public class EnemyController : MonoBehaviour {
 			Vector3 enemyScale = transform.localScale;
 			enemyScale.x *= -1;
 			transform.localScale = enemyScale;
+		}
+	}
+
+	void countdownTimer() //all timers decrement
+	{
+		if (hurtTimerCountdown > 0)
+		{
+			hurtTimerCountdown -= Time.deltaTime;
+		}
+		if (hurtTimerCountdown <= 0)
+		{
+			isHurt = false;
+		}
+
+		if (attackTimerCountdown > 0)
+		{
+			attackTimerCountdown -= Time.deltaTime;
+		}
+		else
+		{
+			attacking = false;
+			testHitBox.gameObject.SetActive (false);
+		}
+
+		if (attackCooldownTimer > 0 && !attacking)
+		{
+			attackCooldownTimer -= Time.deltaTime;
+		}
+
+		if (attackStartUpTimer > 0)
+		{
+			attackStartUpTimer -= Time.deltaTime;
+		}
+
+		if (poisonTimerCountdown > 0)
+		{
+			poisonTimerCountdown -= Time.deltaTime;
+		}
+		else if(poison)
+		{
+			poisonDuration++;
+			enemyHP.addDamage (1);
+			if (poisonDuration > poisonTimer)
+			{
+				poison = false;
+			}
+			else
+			{
+				poisonTimerCountdown = 1f;
+			}
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other) //detects collision
+	{
+		if (other.gameObject.tag == "Player") //if enemy's active hitbox touches player
+		{
+			//Debug.Log ("Enemy: Hit player!");
+			playerCharacter = other.gameObject.GetComponent<PlayerController> ();
+			playerHP = other.gameObject.GetComponent<PlayerHealthController> ();
+
+			Vector3 dir = other.transform.position - transform.position;
+			dir.y = 0;
+
+			if (enemyName == "Ghost") //damage inflicted is based on enemy type
+			{
+				playerHP.takeDamage (1);
+			}
+
+			if (other.attachedRigidbody) //knocks player back
+			{
+				//Debug.Log ("Enemy: The player is knocked back!");
+				other.attachedRigidbody.AddForce(dir.normalized * playerCharacter.knockbackForce);
+			}
+		}
+		if (other.gameObject.tag == "PlayerWeapon" && !isHurt) //if player's active hitbox hits enemy
+		{
+			//Debug.Log ("Enemy: I got hit by the player!");
+			isHurt = true;
+			hurtTimerCountdown = hurtTime;
 		}
 	}
 }
