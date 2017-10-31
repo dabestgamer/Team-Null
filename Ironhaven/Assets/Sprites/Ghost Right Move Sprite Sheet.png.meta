@@ -1,0 +1,1012 @@
+fileFormatVersion: 2
+guid: b4fb0031ba20e8f4a8f29444e35f0626
+timeCreated: 1509046861
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ghost Right Move Sprite Sheet_0
+    21300002: Ghost Right Move Sprite Sheet_1
+    21300004: Ghost Right Move Sprite Sheet_2
+    21300006: Ghost Right Move Sprite Sheet_3
+    21300008: Ghost Right Move Sprite Sheet_4
+    21300010: Ghost Right Move Sprite Sheet_5
+    21300012: Ghost Right Move Sprite Sheet_6
+    21300014: Ghost Right Move Sprite Sheet_7
+    21300016: Ghost Right Move Sprite Sheet_8
+    21300018: Ghost Right Move Sprite Sheet_9
+    21300020: Ghost Right Move Sprite Sheet_10
+    21300022: Ghost Right Move Sprite Sheet_11
+    21300024: Ghost Right Move Sprite Sheet_12
+    21300026: Ghost Right Move Sprite Sheet_13
+    21300028: Ghost Right Move Sprite Sheet_14
+    21300030: Ghost Right Move Sprite Sheet_15
+    21300032: Ghost Right Move Sprite Sheet_16
+    21300034: Ghost Right Move Sprite Sheet_17
+    21300036: Ghost Right Move Sprite Sheet_18
+    21300038: Ghost Right Move Sprite Sheet_19
+    21300040: Ghost Right Move Sprite Sheet_20
+    21300042: Ghost Right Move Sprite Sheet_21
+    21300044: Ghost Right Move Sprite Sheet_22
+    21300046: Ghost Right Move Sprite Sheet_23
+    21300048: Ghost Right Move Sprite Sheet_24
+    21300050: Ghost Right Move Sprite Sheet_25
+    21300052: Ghost Right Move Sprite Sheet_26
+    21300054: Ghost Right Move Sprite Sheet_27
+    21300056: Ghost Right Move Sprite Sheet_28
+    21300058: Ghost Right Move Sprite Sheet_29
+    21300060: Ghost Right Move Sprite Sheet_30
+    21300062: Ghost Right Move Sprite Sheet_31
+    21300064: Ghost Right Move Sprite Sheet_32
+    21300066: Ghost Right Move Sprite Sheet_33
+    21300068: Ghost Right Move Sprite Sheet_34
+    21300070: Ghost Right Move Sprite Sheet_35
+    21300072: Ghost Right Move Sprite Sheet_36
+    21300074: Ghost Right Move Sprite Sheet_37
+    21300076: Ghost Right Move Sprite Sheet_38
+    21300078: Ghost Right Move Sprite Sheet_39
+    21300080: Ghost Right Move Sprite Sheet_40
+    21300082: Ghost Right Move Sprite Sheet_41
+    21300084: Ghost Right Move Sprite Sheet_42
+    21300086: Ghost Right Move Sprite Sheet_43
+    21300088: Ghost Right Move Sprite Sheet_44
+    21300090: Ghost Right Move Sprite Sheet_45
+    21300092: Ghost Right Move Sprite Sheet_46
+    21300094: Ghost Right Move Sprite Sheet_47
+    21300096: Ghost Right Move Sprite Sheet_48
+    21300098: Ghost Right Move Sprite Sheet_49
+    21300100: Ghost Right Move Sprite Sheet_50
+    21300102: Ghost Right Move Sprite Sheet_51
+    21300104: Ghost Right Move Sprite Sheet_52
+    21300106: Ghost Right Move Sprite Sheet_53
+    21300108: Ghost Right Move Sprite Sheet_54
+    21300110: Ghost Right Move Sprite Sheet_55
+    21300112: Ghost Right Move Sprite Sheet_56
+    21300114: Ghost Right Move Sprite Sheet_57
+    21300116: Ghost Right Move Sprite Sheet_58
+    21300118: Ghost Right Move Sprite Sheet_59
+    21300120: Ghost Right Move Sprite Sheet_60
+    21300122: Ghost Right Move Sprite Sheet_61
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3778
+        width: 338
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 3783
+        width: 332
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 3789
+        width: 330
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4216
+        y: 3794
+        width: 330
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 5620
+        y: 3800
+        width: 330
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 3805
+        width: 330
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 8423
+        y: 3811
+        width: 340
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 9823
+        y: 3816
+        width: 335
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 3276
+        width: 336
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 3295
+        width: 348
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 3298
+        width: 336
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4329
+        y: 3306
+        width: 342
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5729
+        y: 3317
+        width: 346
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 7133
+        y: 3320
+        width: 352
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 8537
+        y: 3333
+        width: 357
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 9933
+        y: 3339
+        width: 371
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 2807
+        width: 368
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 2799
+        width: 376
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 2808
+        width: 368
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 2813
+        width: 368
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 5854
+        y: 2813
+        width: 373
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 7258
+        y: 2813
+        width: 376
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 8662
+        y: 2813
+        width: 378
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 10063
+        y: 2813
+        width: 382
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2281
+        width: 376
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 2276
+        width: 382
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 2278
+        width: 379
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 4584
+        y: 2276
+        width: 385
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 5989
+        y: 2278
+        width: 384
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 7393
+        y: 2277
+        width: 393
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 8797
+        y: 2277
+        width: 398
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 10201
+        y: 2278
+        width: 391
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1749
+        width: 390
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1749
+        width: 389
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 1736
+        width: 384
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 4720
+        y: 1744
+        width: 379
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 6124
+        y: 1734
+        width: 382
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 7529
+        y: 1736
+        width: 387
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 8938
+        y: 1736
+        width: 374
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 10342
+        y: 1734
+        width: 372
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1193
+        width: 368
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 1193
+        width: 368
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 1193
+        width: 362
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 4861
+        y: 1192
+        width: 366
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 6268
+        y: 1191
+        width: 355
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 7675
+        y: 1193
+        width: 352
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 9079
+        y: 1192
+        width: 352
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 10486
+        y: 1191
+        width: 360
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 648
+        width: 346
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 643
+        width: 340
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 629
+        width: 345
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 5013
+        y: 629
+        width: 336
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 6420
+        y: 632
+        width: 338
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 7827
+        y: 627
+        width: 336
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 9236
+        y: 621
+        width: 336
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 10643
+        y: 616
+        width: 334
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 74
+        width: 336
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 73
+        width: 335
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 3761
+        y: 65
+        width: 338
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 5170
+        y: 63
+        width: 330
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 6580
+        y: 62
+        width: 330
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghost Right Move Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 7985
+        y: 57
+        width: 329
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

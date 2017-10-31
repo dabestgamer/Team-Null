@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement; //Needed to be able reload a scene
 public class PlayerHealthController : MonoBehaviour {
 
 	public int maxHP = 5;
-	public int currentHP = 0;
+	public static int currentHP = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -22,13 +22,13 @@ public class PlayerHealthController : MonoBehaviour {
 		}
 
 		//The following is only to test dealing damage, will be commented out for actual game
-		if (Input.GetKeyDown ("q") && !this.transform.GetComponent<PlayerController>().hurt)
+		/*if (Input.GetKeyDown ("q") && !this.transform.GetComponent<PlayerController>().hurt)
 		{
 			damageTest ();
-		}
+		}*/
 	}
 
-	void takeDamage(int damage) //inflicts damage to player
+	public void takeDamage(int damage) //inflicts damage to player
 	{
 		currentHP -= damage;
 		if (currentHP <= 0) //player dies
@@ -40,7 +40,7 @@ public class PlayerHealthController : MonoBehaviour {
 
 	void playerDeath() //reloads level on death, can be modified later to do a Game Over screen
 	{
-		SceneManager.LoadScene("Test Level");
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
 	void damageTest() //tests dealing 1 damage to player

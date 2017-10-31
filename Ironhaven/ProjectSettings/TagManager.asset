@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Ghost
+  - PlayerWeapon
+  - EnemyWeapon
+  - InterObject
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,9 +22,9 @@ TagManager:
   - Player
   - Ground
   - PlayerAttack
-  - 
-  - 
-  - 
+  - Enemy
+  - EnemyAttack
+  - PowerUp
   - 
   - 
   - 
