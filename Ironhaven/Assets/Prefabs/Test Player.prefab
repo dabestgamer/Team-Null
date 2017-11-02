@@ -147,7 +147,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1124741809414854}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
@@ -305,6 +305,7 @@ MonoBehaviour:
   grounded: 0
   rb2d: {fileID: 0}
   velocity: 0
+  inventory: {fileID: 114197809542500158}
 --- !u!114 &114197809542500158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -345,4 +346,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHP: 5
-  currentHP: 0
