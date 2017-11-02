@@ -20,7 +20,6 @@ public class EnemyController : MonoBehaviour {
 	public bool inAttackRange; //is true if player is in range of enemy's attack
 	public bool isFacingRight = true;
 	private Rigidbody2D rb2d;
-	private BoxCollider2D b2d;
 	public float spawnX; //stores x coordinate of spawn
 	public float spawnY; //stores y coordinate of spawn
 	public float patrolMin; //stores x coordinate of left bound of patrol
@@ -66,7 +65,6 @@ public class EnemyController : MonoBehaviour {
 		inRange = false; //checks if enemy is detected
 		inAttackRange = false; //checks if enemy is in attacking range
 		rb2d = GetComponent<Rigidbody2D>();
-		b2d = GetComponent<BoxCollider2D> ();
 		setName (); //sets name of enemy
 		setStats (); //sets stats of enemy
 		spawnX = transform.position.x; //gets x coordinate of spawn

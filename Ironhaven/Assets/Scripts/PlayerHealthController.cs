@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement; //Needed to be able reload a scene
 public class PlayerHealthController : MonoBehaviour {
 
 	public int maxHP = 5;
-	public static int currentHP = 0;
+	public int currentHP = 0;
 
 	// Use this for initialization
 	void Start () {
