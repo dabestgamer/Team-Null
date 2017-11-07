@@ -23,7 +23,7 @@ public class Inventory : MonoBehaviour {
 		//If the inventory is full
 		if (itemAdded == false) {
 			//inventory [1].SetActive (true); un comment this to get the object to re appear at original position when dropped.
-			inventory [1] = item; // Second item in the array of objects
+			inventory [0] = item; // First item in the array of objects
 			item.SendMessage("DoInteraction");
 			//Debug.Log ("Inventory is full - Item was switched out with secondary weapon.");
 		}
