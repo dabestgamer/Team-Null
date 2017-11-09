@@ -357,6 +357,14 @@ public class EnemyController : MonoBehaviour {
 			if (enemyName == "Ghost") //damage inflicted is based on enemy type
 			{
 				playerHP.takeDamage (1);
+				if (playerHP.currentHP <= 0)
+				{
+					playerCharacter.setDeath ();
+				}
+				else
+				{
+					playerCharacter.setHurt ();
+				}
 			}
 
 			if (other.attachedRigidbody) //knocks player back
