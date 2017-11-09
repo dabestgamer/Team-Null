@@ -5,6 +5,8 @@ using UnityEngine;
 public class Inventory : MonoBehaviour {
 
 	public GameObject[] inventory = new GameObject[2]; //Creating an array to hold our items, we decided that we can only hold 2 items at a time.
+	public GameObject droppedWeapon;
+
 
 	public void AddItem(GameObject item){
 
@@ -22,7 +24,13 @@ public class Inventory : MonoBehaviour {
 		}
 		//If the inventory is full
 		if (itemAdded == false) {
+			Vector3 playerPos = transform.position; // Storing the current transform of the plater.
 			//inventory [1].SetActive (true); un comment this to get the object to re appear at original position when dropped.
+			droppedWeapon = Instantiate(inventory[0], playerPos, Quaternion.identity);// Istantiating the dropped object where the player is standing.
+			droppedWeapon.name = inventory[0].name; //Changing the name of the Instantiated object(clone) to be the same name as the object in the inventory.
+			droppedWeapon.SetActive(true);//Setting the active to true in order to show the Instantiated object.
+			Destroy(inventory[0]);
+
 			inventory [0] = item; // First item in the array of objects
 			item.SendMessage("DoInteraction");
 			//Debug.Log ("Inventory is full - Item was switched out with secondary weapon.");
