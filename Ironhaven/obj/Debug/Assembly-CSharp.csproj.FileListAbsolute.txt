@@ -27,13 +27,7 @@ C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\UnityEn
 C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\obj\Debug\Assembly-CSharp.dll
 C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\obj\Debug\Assembly-CSharp.pdb
-C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
 C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\UnityEngine.Purchasing.dll
-C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
-C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\UnityEngine.UIAutomation.dll
 C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\Unity.Cecil.dll
 C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\Unity.Cecil.Pdb.dll
 C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\Unity.Cecil.Mdb.dll
-C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\UnityEngine.UIAutomation.xml
-C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
-C:\Users\dabestgamer\Documents\GitHub\Team-Null\Ironhaven\Temp\bin\Debug\UnityEngine.SpatialTracking.xml

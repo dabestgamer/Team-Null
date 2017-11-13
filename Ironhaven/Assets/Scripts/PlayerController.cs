@@ -21,10 +21,12 @@ public class PlayerController : MonoBehaviour
 	public float attackCooldown;
 	public float attackCooldownTimer;
 
+	private Animator animator;
+
 	private Transform testHitBox; //***TEST FOR ATTACKING HITBOX***
 	public Material baseMaterial;
 	public Material damageMaterial;
-	private MeshRenderer playerMesh;
+	//private MeshRenderer playerMesh;
 
 	public bool grounded;
 	public Rigidbody2D rb2d;
@@ -52,9 +54,10 @@ public class PlayerController : MonoBehaviour
 		hurtTimerCountdown = 0f;
 		attackCooldown = 0.5f;
 		attackCooldownTimer = 0;
-		playerMesh = GetComponent<MeshRenderer> ();
+		//playerMesh = GetComponent<MeshRenderer> ();
 
 		inventory = gameObject.GetComponent<Inventory> ();
+		animator = gameObject.GetComponent<Animator> ();
 
 		rb2d = GetComponent<Rigidbody2D> ();
 		testHitBox = this.transform.Find("AttackBox"); //***TEST FOR ATTACKING HITBOX***
@@ -111,10 +114,20 @@ public class PlayerController : MonoBehaviour
 			transform.Translate (runSpeed * Time.deltaTime * -1, 0.0f, 0.0f);
 		}
 
+		if ((Input.GetKey ("right") || Input.GetKey ("left")) && !hurt && grounded) //player's walk animation function is called if not hurt and is on the ground
+		{
+			setWalk ();
+		}
+		else
+		{
+			setIdle ();
+		}
+
 		if (jump) //only adds jumpforce when the jump button is initially pressed
 		{
 			rb2d.AddForce(new Vector2(0f, jumpForce));
 			jump = false;
+			setJump ();
 		}
 	}
 
@@ -159,16 +172,41 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
+	void setIdle() //function that triggers the idle animation
+	{
+		animator.SetTrigger ("playerIdle");
+	}
+
+	void setWalk() //function that triggers the walk animation
+	{
+		animator.SetTrigger ("playerWalk");
+	}
+
+	public void setHurt() //function that triggers the hurt animation, public so enemies call it when they hit player
+	{
+		animator.SetTrigger ("playerHit");
+	}
+
+	void setJump() //function that triggers the jump animation
+	{
+		animator.SetTrigger ("playerJump");
+	}
+
+	public void setDeath() //function that triggers the death animation, public so enemies call it when they hit player
+	{
+		animator.SetTrigger ("playerDeath");
+	}
+
 	void checkHurt() //checks if hurt
 	{
 		if (hurt) //player is red while hurt
 		{
-			playerMesh.material = damageMaterial;
+			//playerMesh.material = damageMaterial;
 			runSpeed = 0;
 		}
 		else //normal colors otherwise
 		{
-			playerMesh.material = baseMaterial;
+			//playerMesh.material = baseMaterial;
 			runSpeed = maxRunSpeed;
 		}
 	}
