@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: dcea1df962ffc2446a65624a595b4ad1
+timeCreated: 1510688982
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KnifeAttack_0
+    21300002: KnifeAttack_1
+    21300004: KnifeAttack_2
+    21300006: KnifeAttack_3
+    21300008: KnifeAttack_4
+    21300010: KnifeAttack_5
+    21300012: KnifeAttack_6
+    21300014: KnifeAttack_7
+    21300016: KnifeAttack_8
+    21300018: KnifeAttack_9
+    21300020: KnifeAttack_10
+    21300022: KnifeAttack_11
+    21300024: KnifeAttack_12
+    21300026: KnifeAttack_13
+    21300028: KnifeAttack_14
+    21300030: KnifeAttack_15
+    21300032: KnifeAttack_16
+    21300034: KnifeAttack_17
+    21300036: KnifeAttack_18
+    21300038: KnifeAttack_19
+    21300040: KnifeAttack_20
+    21300042: KnifeAttack_21
+    21300044: KnifeAttack_22
+    21300046: KnifeAttack_23
+    21300048: KnifeAttack_24
+    21300050: KnifeAttack_25
+    21300052: KnifeAttack_26
+    21300054: KnifeAttack_27
+    21300056: KnifeAttack_28
+    21300058: KnifeAttack_29
+    21300060: KnifeAttack_30
+    21300062: KnifeAttack_31
+    21300064: KnifeAttack_32
+    21300066: KnifeAttack_33
+    21300068: KnifeAttack_34
+    21300070: KnifeAttack_35
+    21300072: KnifeAttack_36
+    21300074: KnifeAttack_37
+    21300076: KnifeAttack_38
+    21300078: KnifeAttack_39
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KnifeAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6734
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_1
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 6734
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_2
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 6734
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 6734
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_4
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 6734
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5772
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_6
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 5772
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_7
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 5772
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 5772
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_9
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 5772
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4810
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 4810
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_12
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 4810
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 4810
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_14
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 4810
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3848
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_16
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 3848
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_17
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3848
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_18
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 3848
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_19
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 3848
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2886
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_21
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 2886
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_22
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2886
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_23
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 2886
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_24
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 2886
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1924
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_26
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1924
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_27
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1924
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_28
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1924
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_29
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 1924
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 962
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_31
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 962
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_32
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 962
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_33
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 962
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_34
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 962
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_36
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 0
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_37
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 0
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_38
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 0
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: KnifeAttack_39
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 0
+        width: 635
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

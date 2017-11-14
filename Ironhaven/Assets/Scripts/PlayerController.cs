@@ -79,6 +79,7 @@ public class PlayerController : MonoBehaviour
 		if(Input.GetKeyDown("z") && !attacking && !hurt) //code for basic attacking, cannot attack if already in the middle of an attacking and cannot attack if hurt
 		{
 			attacking = true;
+			setAttack ();
 			basicAttackTimerCountdown = basicAttackTime;
 			attackCooldownTimer = attackCooldown;
 			testHitBox.gameObject.SetActive (true); //visually turns on hitbox
@@ -118,7 +119,7 @@ public class PlayerController : MonoBehaviour
 		{
 			setWalk ();
 		}
-		else
+		else if(!attacking)
 		{
 			setIdle ();
 		}
@@ -174,22 +175,117 @@ public class PlayerController : MonoBehaviour
 
 	void setIdle() //function that triggers the idle animation
 	{
-		animator.SetTrigger ("playerIdle");
+		/*if (inventory.inventory [0] != null)
+		{
+			if (inventory.inventory [0].name == "Knife")
+			{
+
+			}
+			else if (inventory.inventory [0].name == "Scalpel")
+			{
+
+			}
+			else if(inventory.inventory [0].name == "Bone Saw")
+			{
+
+			}
+		}
+		else
+		{*/
+			animator.SetTrigger ("playerIdle");
+		//}
 	}
 
 	void setWalk() //function that triggers the walk animation
 	{
-		animator.SetTrigger ("playerWalk");
+		/*if (inventory.inventory [0] != null)
+		{
+			if (inventory.inventory [0].name == "Knife")
+			{
+
+			}
+			else if (inventory.inventory [0].name == "Scalpel")
+			{
+
+			}
+			else if (inventory.inventory [0].name == "Bone Saw")
+			{
+
+			}
+		}
+		else
+		{*/
+			animator.SetTrigger ("playerWalk");
+		//}
 	}
 
 	public void setHurt() //function that triggers the hurt animation, public so enemies call it when they hit player
 	{
-		animator.SetTrigger ("playerHit");
+		/*if (inventory.inventory [0] != null)
+		{
+			if (inventory.inventory [0].name == "Knife")
+			{
+
+			}
+			else if (inventory.inventory [0].name == "Scalpel")
+			{
+
+			}
+			else if (inventory.inventory [0].name == "Bone Saw")
+			{
+
+			}
+		}
+		else
+		{*/
+			animator.SetTrigger ("playerHit");
+		//}
 	}
 
 	void setJump() //function that triggers the jump animation
 	{
-		animator.SetTrigger ("playerJump");
+		/*if (inventory.inventory [0] != null)
+		{
+			if (inventory.inventory [0].name == "Knife")
+			{
+
+			}
+			else if (inventory.inventory [0].name == "Scalpel")
+			{
+
+			}
+			else if (inventory.inventory [0].name == "Bone Saw")
+			{
+
+			}
+		}
+		else
+		{*/
+			animator.SetTrigger ("playerJump");
+		//}
+	}
+
+	void setAttack()
+	{
+		if (inventory.inventory [0] != null)
+		{
+			if (inventory.inventory [0].name == "Knife")
+			{
+				animator.SetTrigger ("playerKnifeAttack");
+			}
+			else if (inventory.inventory [0].name == "Scalpel")
+			{
+				animator.SetTrigger ("playerScalpelAttack");
+			}
+			else if (inventory.inventory [0].name == "Bone Saw")
+			{
+				animator.SetTrigger ("playerBoneSawAttack");
+			}
+		}
+		else
+		{
+			animator.SetTrigger ("playerAttack");
+		}
 	}
 
 	public void setDeath() //function that triggers the death animation, public so enemies call it when they hit player

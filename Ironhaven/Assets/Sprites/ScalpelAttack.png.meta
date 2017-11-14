@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 00ca9c376e3254648b70207def35f5dc
+timeCreated: 1510689129
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ScalpelAttack_0
+    21300002: ScalpelAttack_1
+    21300004: ScalpelAttack_2
+    21300006: ScalpelAttack_3
+    21300008: ScalpelAttack_4
+    21300010: ScalpelAttack_5
+    21300012: ScalpelAttack_6
+    21300014: ScalpelAttack_7
+    21300016: ScalpelAttack_8
+    21300018: ScalpelAttack_9
+    21300020: ScalpelAttack_10
+    21300022: ScalpelAttack_11
+    21300024: ScalpelAttack_12
+    21300026: ScalpelAttack_13
+    21300028: ScalpelAttack_14
+    21300030: ScalpelAttack_15
+    21300032: ScalpelAttack_16
+    21300034: ScalpelAttack_17
+    21300036: ScalpelAttack_18
+    21300038: ScalpelAttack_19
+    21300040: ScalpelAttack_20
+    21300042: ScalpelAttack_21
+    21300044: ScalpelAttack_22
+    21300046: ScalpelAttack_23
+    21300048: ScalpelAttack_24
+    21300050: ScalpelAttack_25
+    21300052: ScalpelAttack_26
+    21300054: ScalpelAttack_27
+    21300056: ScalpelAttack_28
+    21300058: ScalpelAttack_29
+    21300060: ScalpelAttack_30
+    21300062: ScalpelAttack_31
+    21300064: ScalpelAttack_32
+    21300066: ScalpelAttack_33
+    21300068: ScalpelAttack_34
+    21300070: ScalpelAttack_35
+    21300072: ScalpelAttack_36
+    21300074: ScalpelAttack_37
+    21300076: ScalpelAttack_38
+    21300078: ScalpelAttack_39
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScalpelAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6734
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_1
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 6734
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_2
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 6734
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 6734
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_4
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 6734
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5772
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_6
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 5772
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_7
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 5772
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 5772
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_9
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 5772
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4810
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_11
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 4810
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 4810
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 4810
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_14
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 4810
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3848
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_16
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 3848
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_17
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 3848
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_18
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 3848
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_19
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 3848
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2886
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_21
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 2886
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_22
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 2886
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_23
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 2886
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_24
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 2886
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1924
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_26
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1924
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_27
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1924
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_28
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1924
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_29
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 1924
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 962
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_31
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 962
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_32
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 962
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_33
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 962
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_34
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 962
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_36
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_37
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 0
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_38
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 0
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScalpelAttack_39
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 0
+        width: 565
+        height: 962
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
