@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
 		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));
 
 		checkHurt (); //checks if player is hurt
-		if (Input.GetButtonDown ("Jump") && grounded && !hurt) //only allows jumping while the player is on the ground and the jump button is pressed, so no mid-air jumps are done
+		if ((Input.GetButtonDown ("Jump") || Input.GetKey ("up")) && grounded && !hurt) //only allows jumping while the player is on the ground and the jump button is pressed, so no mid-air jumps are done
 		{
 			jump = true;
 		}

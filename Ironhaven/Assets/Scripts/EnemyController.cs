@@ -53,7 +53,7 @@ public class EnemyController : MonoBehaviour {
 
 	public Material baseMaterial;
 	public Material damageMaterial;
-	private MeshRenderer enemyMesh;
+	//private MeshRenderer enemyMesh;
 
 	private Transform testHitBox; //***TEST FOR ATTACKING HITBOX***
 
@@ -76,7 +76,9 @@ public class EnemyController : MonoBehaviour {
 		isHurt = false;
 		grounded = false;
 
-		enemyMesh = GetComponent<MeshRenderer> ();
+		animator = gameObject.GetComponent<Animator> ();
+
+		//enemyMesh = GetComponent<MeshRenderer> ();
 
 		hurtTime = 0.5f;
 		poisonTimer = 5f;
@@ -221,6 +223,7 @@ public class EnemyController : MonoBehaviour {
 				}
 
 				testHitBox.gameObject.SetActive (true);
+				setAttack ();
 				attacking = true;
 				attackTimerCountdown = attackTime;
 				attackCooldownTimer = attackCooldown;
@@ -270,15 +273,39 @@ public class EnemyController : MonoBehaviour {
 	{
 		if (isHurt)
 		{
-			enemyMesh.material = damageMaterial; //enemy is red while hurt
+			//enemyMesh.material = damageMaterial; //enemy is red while hurt
 			enemySpeed = 0;
 		}
 		else //normal colors otherwise
 		{
-			enemyMesh.material = baseMaterial;
+			//enemyMesh.material = baseMaterial;
 			enemySpeed = enemyMaxSpeed;
 			rb2d.velocity = Vector3.zero;
 			//rb2d.angularVelocity = Vector3.zero;
+		}
+	}
+
+	void setIdle()
+	{
+		if (enemyName == "Ghost")
+		{
+			animator.SetTrigger ("ghostMove");
+		}
+	}
+
+	void setMove()
+	{
+		if (enemyName == "Ghost")
+		{
+			animator.SetTrigger ("ghostMove");
+		}
+	}
+
+	void setAttack()
+	{
+		if (enemyName == "Ghost")
+		{
+			animator.SetTrigger ("ghostAttack");
 		}
 	}
 
