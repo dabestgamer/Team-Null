@@ -39,7 +39,7 @@
         <obj_info name="bone_004" type="bone" w="155.936" h="10"/>
         <obj_info name="bone_002" type="bone" w="152.37" h="10"/>
         <obj_info name="bone_001" type="bone" w="237.557" h="10"/>
-        <animation id="0" name="Attack" length="1000" interval="100" l="-166" t="-449" r="384" b="525">
+        <animation id="0" name="Attack" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -402,7 +402,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="1" name="Jump" length="1000" interval="100" l="-172" t="-689" r="310" b="522">
+        <animation id="1" name="Jump" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -712,7 +712,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="2" name="GEThIT" length="1000" interval="100" l="-137" t="-465" r="434" b="522">
+        <animation id="2" name="GEThIT" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="15" key="0"/>
@@ -1115,7 +1115,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="3" name="Die" length="1000" interval="100" l="-1210" t="-445" r="274" b="709">
+        <animation id="3" name="Die" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -1392,7 +1392,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="4" name="ILDE" length="1000" interval="100" l="-129" t="-442" r="110" b="522">
+        <animation id="4" name="ILDE" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -1619,7 +1619,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="5" name="Pick Up" length="1000" interval="100" l="-444" t="-452" r="338" b="591">
+        <animation id="5" name="Pick Up" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -1899,7 +1899,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="6" name="Walking" length="782" interval="100" l="-342" t="-452" r="235" b="533">
+        <animation id="6" name="Walking" length="782" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="16" key="0"/>
@@ -2390,7 +2390,7 @@
         <obj_info name="bone_016" type="bone" w="245.628" h="10"/>
         <obj_info name="bone_015" type="bone" w="238.101" h="10"/>
         <obj_info name="bone_017" type="bone" w="242.862" h="10"/>
-        <animation id="0" name="Jump_001" length="1000" interval="100" l="-172" t="-689" r="310" b="522">
+        <animation id="0" name="Jump_001" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -2728,7 +2728,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="1" name="Attack_000" length="1000" interval="100" l="-166" t="-449" r="569" b="525">
+        <animation id="1" name="Attack_000" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -3127,7 +3127,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="2" name="Walking_001" length="782" interval="100" l="-342" t="-452" r="299" b="533">
+        <animation id="2" name="Walking_001" length="782" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="15" key="0"/>
@@ -3639,7 +3639,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="3" name="GEThIT_001" length="1000" interval="100" l="-137" t="-616" r="482" b="522">
+        <animation id="3" name="GEThIT_001" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="15" key="0"/>
@@ -4094,7 +4094,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="4" name="ILDE_000" length="1000" interval="100" l="-122" t="-442" r="223" b="522">
+        <animation id="4" name="ILDE_000" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -4364,7 +4364,7 @@
         <obj_info name="bone_015" type="bone" w="238.101" h="10"/>
         <obj_info name="bone_017" type="bone" w="242.862" h="10"/>
         <obj_info name="bone_016" type="bone" w="245.628" h="10"/>
-        <animation id="0" name="Jump_000" length="1000" interval="100" l="-172" t="-772" r="542" b="522">
+        <animation id="0" name="Jump_000" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -4714,7 +4714,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="1" name="Attack_000" length="1000" interval="100" l="-166" t="-504" r="671" b="525">
+        <animation id="1" name="Attack_000" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -5113,7 +5113,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="2" name="ILDE_001" length="1000" interval="100" l="-111" t="-449" r="448" b="522">
+        <animation id="2" name="ILDE_001" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -5366,7 +5366,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="3" name="GEThIT_000" length="1000" interval="100" l="-137" t="-686" r="648" b="522">
+        <animation id="3" name="GEThIT_000" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="15" key="0"/>
@@ -5821,7 +5821,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="4" name="Walking_001" length="782" interval="100" l="-342" t="-460" r="474" b="533">
+        <animation id="4" name="Walking_001" length="782" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="15" key="0"/>
@@ -6357,7 +6357,7 @@
         <obj_info name="bone_013" type="bone" w="255.304" h="10"/>
         <obj_info name="bone_014" type="bone" w="99.766" h="10"/>
         <obj_info name="bone_018" type="bone" w="240.34" h="10"/>
-        <animation id="0" name="Jump_002" length="1000" interval="100" l="-172" t="-689" r="310" b="522">
+        <animation id="0" name="Jump_002" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -6695,7 +6695,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="1" name="Attack_001" length="1000" interval="100" l="-166" t="-449" r="504" b="525">
+        <animation id="1" name="Attack_001" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -7094,7 +7094,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="2" name="ILDE_001" length="1000" interval="100" l="-122" t="-442" r="141" b="522">
+        <animation id="2" name="ILDE_001" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="0" key="0"/>
@@ -7350,7 +7350,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="3" name="GEThIT_002" length="1000" interval="100" l="-137" t="-512" r="488" b="522">
+        <animation id="3" name="GEThIT_002" length="1000" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="15" key="0"/>
@@ -7805,7 +7805,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="4" name="Walking_000" length="782" interval="100" l="-342" t="-452" r="303" b="533">
+        <animation id="4" name="Walking_000" length="782" interval="100" l="-12100" t="-772" r="671" b="709">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="15" key="0"/>
