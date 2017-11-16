@@ -26,7 +26,7 @@ public class Inventory : MonoBehaviour {
 		if (itemAdded == false) {
 			Vector3 itemPos = item.transform.position;// Storing the current position of the item that is to be picked up.
 			//inventory [1].SetActive (true); un comment this to get the object to re appear at original position when dropped.
-			droppedWeapon = Instantiate(inventory[0], itemPos, Quaternion.identity);// Istantiating the dropped object where the player is standing.
+			droppedWeapon = Instantiate(inventory[0], itemPos, Quaternion.Euler(0,180,0));// Istantiating the dropped object where the player is standing.
 			droppedWeapon.name = inventory[0].name; //Changing the name of the Instantiated object(clone) to be the same name as the object in the inventory.
 			droppedWeapon.SetActive(true);//Setting the active to true in order to show the Instantiated object.
 			Destroy(inventory[0]);
