@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: dcea1df962ffc2446a65624a595b4ad1
-timeCreated: 1510688982
+timeCreated: 1510856419
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -148,12 +148,12 @@ TextureImporter:
       name: KnifeAttack_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6734
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 44
+        y: 6810
+        width: 314
+        height: 964
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: KnifeAttack_1
       rect:
         serializedVersion: 2
-        x: 635
-        y: 6734
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 776
+        y: 6810
+        width: 330
+        height: 964
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: KnifeAttack_2
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 6734
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1509
+        y: 6808
+        width: 345
+        height: 966
+      alignment: 9
+      pivot: {x: 0.38, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,12 +190,12 @@ TextureImporter:
       name: KnifeAttack_3
       rect:
         serializedVersion: 2
-        x: 1905
-        y: 6734
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2241
+        y: 6807
+        width: 357
+        height: 967
+      alignment: 9
+      pivot: {x: 0.36, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: KnifeAttack_4
       rect:
         serializedVersion: 2
-        x: 2540
-        y: 6734
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2974
+        y: 6806
+        width: 368
+        height: 968
+      alignment: 9
+      pivot: {x: 0.34, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: KnifeAttack_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5772
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 36
+        y: 5834
+        width: 372
+        height: 968
+      alignment: 9
+      pivot: {x: 0.34, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,12 +232,12 @@ TextureImporter:
       name: KnifeAttack_6
       rect:
         serializedVersion: 2
-        x: 635
-        y: 5772
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 769
+        y: 5834
+        width: 375
+        height: 968
+      alignment: 9
+      pivot: {x: 0.34, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: KnifeAttack_7
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 5772
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1501
+        y: 5834
+        width: 372
+        height: 968
+      alignment: 9
+      pivot: {x: 0.34, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: KnifeAttack_8
       rect:
         serializedVersion: 2
-        x: 1905
-        y: 5772
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2230
+        y: 5834
+        width: 371
+        height: 968
+      alignment: 9
+      pivot: {x: 0.34, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,12 +274,12 @@ TextureImporter:
       name: KnifeAttack_9
       rect:
         serializedVersion: 2
-        x: 2540
-        y: 5772
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2962
+        y: 5834
+        width: 376
+        height: 968
+      alignment: 9
+      pivot: {x: 0.33, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: KnifeAttack_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4810
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 22
+        y: 4862
+        width: 386
+        height: 968
+      alignment: 9
+      pivot: {x: 0.34, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: KnifeAttack_11
       rect:
         serializedVersion: 2
-        x: 635
-        y: 4810
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 769
+        y: 4862
+        width: 394
+        height: 968
+      alignment: 9
+      pivot: {x: 0.32, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -316,12 +316,12 @@ TextureImporter:
       name: KnifeAttack_12
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 4810
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1497
+        y: 4862
+        width: 463
+        height: 968
+      alignment: 9
+      pivot: {x: 0.29, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,12 +330,12 @@ TextureImporter:
       name: KnifeAttack_13
       rect:
         serializedVersion: 2
-        x: 1905
-        y: 4810
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2226
+        y: 4862
+        width: 526
+        height: 968
+      alignment: 9
+      pivot: {x: 0.28, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -344,12 +344,12 @@ TextureImporter:
       name: KnifeAttack_14
       rect:
         serializedVersion: 2
-        x: 2540
-        y: 4810
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2955
+        y: 4862
+        width: 584
+        height: 968
+      alignment: 9
+      pivot: {x: 0.21, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: KnifeAttack_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3848
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 13
+        y: 3890
+        width: 637
+        height: 968
+      alignment: 9
+      pivot: {x: 0.19, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -372,12 +372,12 @@ TextureImporter:
       name: KnifeAttack_16
       rect:
         serializedVersion: 2
-        x: 635
-        y: 3848
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 742
+        y: 3890
+        width: 679
+        height: 968
+      alignment: 9
+      pivot: {x: 0.19, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,12 +386,12 @@ TextureImporter:
       name: KnifeAttack_17
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 3848
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1471
+        y: 3890
+        width: 713
+        height: 968
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -400,12 +400,12 @@ TextureImporter:
       name: KnifeAttack_18
       rect:
         serializedVersion: 2
-        x: 1905
-        y: 3848
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2199
+        y: 3894
+        width: 736
+        height: 964
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: KnifeAttack_19
       rect:
         serializedVersion: 2
-        x: 2540
-        y: 3848
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2939
+        y: 3891
+        width: 728
+        height: 967
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -428,12 +428,12 @@ TextureImporter:
       name: KnifeAttack_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2886
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6
+        y: 2918
+        width: 721
+        height: 968
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -442,12 +442,12 @@ TextureImporter:
       name: KnifeAttack_21
       rect:
         serializedVersion: 2
-        x: 635
-        y: 2886
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 746
+        y: 2931
+        width: 708
+        height: 968
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: KnifeAttack_22
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 2886
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1482
+        y: 2918
+        width: 698
+        height: 968
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,12 +470,12 @@ TextureImporter:
       name: KnifeAttack_23
       rect:
         serializedVersion: 2
-        x: 1905
-        y: 2886
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2222
+        y: 2918
+        width: 679
+        height: 968
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -484,12 +484,12 @@ TextureImporter:
       name: KnifeAttack_24
       rect:
         serializedVersion: 2
-        x: 2540
-        y: 2886
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2959
+        y: 2918
+        width: 664
+        height: 968
+      alignment: 9
+      pivot: {x: 0.19, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -498,12 +498,12 @@ TextureImporter:
       name: KnifeAttack_25
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1924
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 28
+        y: 1946
+        width: 642
+        height: 968
+      alignment: 9
+      pivot: {x: 0.19, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -512,12 +512,12 @@ TextureImporter:
       name: KnifeAttack_26
       rect:
         serializedVersion: 2
-        x: 635
-        y: 1924
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 765
+        y: 1946
+        width: 622
+        height: 968
+      alignment: 9
+      pivot: {x: 0.19, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -526,12 +526,12 @@ TextureImporter:
       name: KnifeAttack_27
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 1924
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1505
+        y: 1946
+        width: 596
+        height: 968
+      alignment: 9
+      pivot: {x: 0.19, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -540,12 +540,12 @@ TextureImporter:
       name: KnifeAttack_28
       rect:
         serializedVersion: 2
-        x: 1905
-        y: 1924
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2242
+        y: 1946
+        width: 572
+        height: 968
+      alignment: 9
+      pivot: {x: 0.2, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -554,12 +554,12 @@ TextureImporter:
       name: KnifeAttack_29
       rect:
         serializedVersion: 2
-        x: 2540
-        y: 1924
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2981
+        y: 1946
+        width: 543
+        height: 968
+      alignment: 9
+      pivot: {x: 0.21, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -568,12 +568,12 @@ TextureImporter:
       name: KnifeAttack_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 962
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 49
+        y: 974
+        width: 518
+        height: 968
+      alignment: 9
+      pivot: {x: 0.22, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -582,12 +582,12 @@ TextureImporter:
       name: KnifeAttack_31
       rect:
         serializedVersion: 2
-        x: 635
-        y: 962
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 785
+        y: 974
+        width: 503
+        height: 968
+      alignment: 9
+      pivot: {x: 0.22, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -596,12 +596,12 @@ TextureImporter:
       name: KnifeAttack_32
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 962
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1520
+        y: 974
+        width: 486
+        height: 968
+      alignment: 9
+      pivot: {x: 0.22, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -610,12 +610,12 @@ TextureImporter:
       name: KnifeAttack_33
       rect:
         serializedVersion: 2
-        x: 1905
-        y: 962
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2253
+        y: 974
+        width: 470
+        height: 968
+      alignment: 9
+      pivot: {x: 0.23, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -624,12 +624,12 @@ TextureImporter:
       name: KnifeAttack_34
       rect:
         serializedVersion: 2
-        x: 2540
-        y: 962
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2989
+        y: 975
+        width: 448
+        height: 967
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -638,12 +638,12 @@ TextureImporter:
       name: KnifeAttack_35
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 51
+        y: 6
+        width: 429
+        height: 964
+      alignment: 9
+      pivot: {x: 0.26, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -652,12 +652,12 @@ TextureImporter:
       name: KnifeAttack_36
       rect:
         serializedVersion: 2
-        x: 635
-        y: 0
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 784
+        y: 6
+        width: 409
+        height: 964
+      alignment: 9
+      pivot: {x: 0.28, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -666,12 +666,12 @@ TextureImporter:
       name: KnifeAttack_37
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 0
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1516
+        y: 6
+        width: 387
+        height: 964
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -680,12 +680,12 @@ TextureImporter:
       name: KnifeAttack_38
       rect:
         serializedVersion: 2
-        x: 1905
-        y: 0
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2249
+        y: 6
+        width: 364
+        height: 964
+      alignment: 9
+      pivot: {x: 0.35, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -694,12 +694,12 @@ TextureImporter:
       name: KnifeAttack_39
       rect:
         serializedVersion: 2
-        x: 2540
-        y: 0
-        width: 635
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2981
+        y: 6
+        width: 338
+        height: 964
+      alignment: 9
+      pivot: {x: 0.38, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

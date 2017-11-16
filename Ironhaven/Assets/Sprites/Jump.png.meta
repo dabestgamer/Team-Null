@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0c39cfa1c06bb484fb747cdcaaea3761
-timeCreated: 1510240877
+timeCreated: 1510854521
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -44,28 +44,6 @@ TextureImporter:
     21300074: Jump_37
     21300076: Jump_38
     21300078: Jump_39
-    21300080: Jump_40
-    21300082: Jump_41
-    21300084: Jump_42
-    21300086: Jump_43
-    21300088: Jump_44
-    21300090: Jump_45
-    21300092: Jump_46
-    21300094: Jump_47
-    21300096: Jump_48
-    21300098: Jump_49
-    21300100: Jump_50
-    21300102: Jump_51
-    21300104: Jump_52
-    21300106: Jump_53
-    21300108: Jump_54
-    21300110: Jump_55
-    21300112: Jump_56
-    21300114: Jump_57
-    21300116: Jump_58
-    21300118: Jump_59
-    21300120: Jump_60
-    21300122: Jump_61
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -170,10 +148,10 @@ TextureImporter:
       name: Jump_0
       rect:
         serializedVersion: 2
-        x: 56
-        y: 9728
-        width: 235
-        height: 967
+        x: 50
+        y: 8463
+        width: 231
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +162,10 @@ TextureImporter:
       name: Jump_1
       rect:
         serializedVersion: 2
-        x: 612
-        y: 9734
+        x: 517
+        y: 8475
         width: 251
-        height: 967
+        height: 963
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +176,10 @@ TextureImporter:
       name: Jump_2
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 9744
-        width: 262
-        height: 962
+        x: 985
+        y: 8489
+        width: 274
+        height: 954
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +190,10 @@ TextureImporter:
       name: Jump_3
       rect:
         serializedVersion: 2
-        x: 1724
-        y: 9755
-        width: 278
-        height: 951
+        x: 1453
+        y: 8513
+        width: 298
+        height: 935
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +204,10 @@ TextureImporter:
       name: Jump_4
       rect:
         serializedVersion: 2
-        x: 2280
-        y: 9766
-        width: 300
-        height: 945
+        x: 1921
+        y: 8532
+        width: 321
+        height: 920
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +218,10 @@ TextureImporter:
       name: Jump_5
       rect:
         serializedVersion: 2
-        x: 2837
-        y: 9779
-        width: 315
-        height: 933
+        x: 2
+        y: 7351
+        width: 321
+        height: 911
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +232,10 @@ TextureImporter:
       name: Jump_6
       rect:
         serializedVersion: 2
-        x: 3393
-        y: 9792
-        width: 326
-        height: 925
+        x: 485
+        y: 7374
+        width: 339
+        height: 902
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +246,10 @@ TextureImporter:
       name: Jump_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 8590
-        width: 339
-        height: 919
+        x: 971
+        y: 7398
+        width: 354
+        height: 897
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +260,10 @@ TextureImporter:
       name: Jump_8
       rect:
         serializedVersion: 2
-        x: 569
-        y: 8601
-        width: 353
-        height: 919
+        x: 1458
+        y: 7426
+        width: 368
+        height: 883
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,10 +274,10 @@ TextureImporter:
       name: Jump_9
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 8617
-        width: 369
-        height: 914
+        x: 1944
+        y: 7455
+        width: 378
+        height: 873
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +288,10 @@ TextureImporter:
       name: Jump_10
       rect:
         serializedVersion: 2
-        x: 1708
-        y: 8628
-        width: 375
-        height: 913
+        x: 26
+        y: 6275
+        width: 387
+        height: 859
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +302,10 @@ TextureImporter:
       name: Jump_11
       rect:
         serializedVersion: 2
-        x: 2275
-        y: 8638
-        width: 390
-        height: 914
+        x: 513
+        y: 6307
+        width: 397
+        height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +316,10 @@ TextureImporter:
       name: Jump_12
       rect:
         serializedVersion: 2
-        x: 2847
-        y: 8654
-        width: 396
-        height: 909
+        x: 999
+        y: 6340
+        width: 406
+        height: 827
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +330,10 @@ TextureImporter:
       name: Jump_13
       rect:
         serializedVersion: 2
-        x: 3414
-        y: 8665
+        x: 1486
+        y: 6373
         width: 411
-        height: 908
+        height: 808
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,10 +344,10 @@ TextureImporter:
       name: Jump_14
       rect:
         serializedVersion: 2
-        x: 19
-        y: 7463
-        width: 422
-        height: 908
+        x: 1973
+        y: 6406
+        width: 415
+        height: 793
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +358,10 @@ TextureImporter:
       name: Jump_15
       rect:
         serializedVersion: 2
-        x: 586
-        y: 7479
-        width: 433
-        height: 903
+        x: 54
+        y: 5230
+        width: 416
+        height: 775
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +372,10 @@ TextureImporter:
       name: Jump_16
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 7489
-        width: 438
-        height: 903
+        x: 541
+        y: 5268
+        width: 416
+        height: 751
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,10 +386,10 @@ TextureImporter:
       name: Jump_17
       rect:
         serializedVersion: 2
-        x: 1724
-        y: 7505
-        width: 449
-        height: 898
+        x: 1028
+        y: 5301
+        width: 415
+        height: 736
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +400,10 @@ TextureImporter:
       name: Jump_18
       rect:
         serializedVersion: 2
-        x: 2291
-        y: 7516
-        width: 460
-        height: 898
+        x: 1514
+        y: 5334
+        width: 416
+        height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +414,10 @@ TextureImporter:
       name: Jump_19
       rect:
         serializedVersion: 2
-        x: 2858
-        y: 7532
-        width: 470
-        height: 892
+        x: 1992
+        y: 5306
+        width: 413
+        height: 732
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -450,10 +428,10 @@ TextureImporter:
       name: Jump_20
       rect:
         serializedVersion: 2
-        x: 3425
-        y: 7548
-        width: 476
-        height: 887
+        x: 69
+        y: 4069
+        width: 415
+        height: 750
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +442,10 @@ TextureImporter:
       name: Jump_21
       rect:
         serializedVersion: 2
-        x: 35
-        y: 6346
-        width: 481
-        height: 881
+        x: 550
+        y: 4036
+        width: 416
+        height: 774
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +456,10 @@ TextureImporter:
       name: Jump_22
       rect:
         serializedVersion: 2
-        x: 602
-        y: 6362
-        width: 486
-        height: 876
+        x: 1028
+        y: 4007
+        width: 415
+        height: 793
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +470,10 @@ TextureImporter:
       name: Jump_23
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 6373
-        width: 497
-        height: 876
+        x: 1510
+        y: 3979
+        width: 413
+        height: 807
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,10 +484,10 @@ TextureImporter:
       name: Jump_24
       rect:
         serializedVersion: 2
-        x: 1735
-        y: 6389
-        width: 503
-        height: 870
+        x: 1992
+        y: 3951
+        width: 406
+        height: 826
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,10 +498,10 @@ TextureImporter:
       name: Jump_25
       rect:
         serializedVersion: 2
-        x: 2302
-        y: 6405
-        width: 508
-        height: 865
+        x: 64
+        y: 2713
+        width: 406
+        height: 845
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +512,10 @@ TextureImporter:
       name: Jump_26
       rect:
         serializedVersion: 2
-        x: 2870
-        y: 6421
-        width: 512
-        height: 860
+        x: 546
+        y: 2685
+        width: 401
+        height: 859
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,10 +526,10 @@ TextureImporter:
       name: Jump_27
       rect:
         serializedVersion: 2
-        x: 3441
-        y: 6437
-        width: 513
-        height: 855
+        x: 1028
+        y: 2661
+        width: 392
+        height: 874
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +540,10 @@ TextureImporter:
       name: Jump_28
       rect:
         serializedVersion: 2
-        x: 45
-        y: 5234
-        width: 519
-        height: 855
+        x: 1505
+        y: 2633
+        width: 387
+        height: 892
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,10 +554,10 @@ TextureImporter:
       name: Jump_29
       rect:
         serializedVersion: 2
-        x: 612
-        y: 5224
-        width: 519
-        height: 857
+        x: 1987
+        y: 2609
+        width: 378
+        height: 902
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +568,10 @@ TextureImporter:
       name: Jump_30
       rect:
         serializedVersion: 2
-        x: 1179
-        y: 5213
-        width: 518
-        height: 860
+        x: 64
+        y: 1377
+        width: 364
+        height: 916
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +582,10 @@ TextureImporter:
       name: Jump_31
       rect:
         serializedVersion: 2
-        x: 1746
-        y: 5197
-        width: 513
-        height: 871
+        x: 541
+        y: 1353
+        width: 359
+        height: 930
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,10 +596,10 @@ TextureImporter:
       name: Jump_32
       rect:
         serializedVersion: 2
-        x: 2313
-        y: 5186
-        width: 513
-        height: 871
+        x: 1023
+        y: 1334
+        width: 345
+        height: 935
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +610,10 @@ TextureImporter:
       name: Jump_33
       rect:
         serializedVersion: 2
-        x: 2879
-        y: 5173
-        width: 508
-        height: 879
+        x: 1505
+        y: 1315
+        width: 331
+        height: 945
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +624,10 @@ TextureImporter:
       name: Jump_34
       rect:
         serializedVersion: 2
-        x: 3446
-        y: 5160
-        width: 503
-        height: 886
+        x: 1982
+        y: 1296
+        width: 321
+        height: 950
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -660,10 +638,10 @@ TextureImporter:
       name: Jump_35
       rect:
         serializedVersion: 2
-        x: 51
-        y: 3931
-        width: 502
-        height: 891
+        x: 59
+        y: 69
+        width: 307
+        height: 958
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -674,10 +652,10 @@ TextureImporter:
       name: Jump_36
       rect:
         serializedVersion: 2
-        x: 618
-        y: 3920
-        width: 496
-        height: 892
+        x: 541
+        y: 54
+        width: 288
+        height: 961
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +666,10 @@ TextureImporter:
       name: Jump_37
       rect:
         serializedVersion: 2
-        x: 1184
-        y: 3909
-        width: 492
-        height: 898
+        x: 1019
+        y: 36
+        width: 278
+        height: 968
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -702,10 +680,10 @@ TextureImporter:
       name: Jump_38
       rect:
         serializedVersion: 2
-        x: 1751
-        y: 3898
-        width: 485
-        height: 901
+        x: 1500
+        y: 26
+        width: 260
+        height: 968
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,317 +694,9 @@ TextureImporter:
       name: Jump_39
       rect:
         serializedVersion: 2
-        x: 2318
-        y: 3883
-        width: 476
-        height: 908
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_40
-      rect:
-        serializedVersion: 2
-        x: 2885
-        y: 3872
-        width: 470
-        height: 913
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_41
-      rect:
-        serializedVersion: 2
-        x: 3452
-        y: 3861
-        width: 464
-        height: 914
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_42
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 2632
-        width: 454
-        height: 919
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_43
-      rect:
-        serializedVersion: 2
-        x: 623
-        y: 2621
-        width: 448
-        height: 925
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_44
-      rect:
-        serializedVersion: 2
-        x: 1190
-        y: 2611
-        width: 438
-        height: 929
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_45
-      rect:
-        serializedVersion: 2
-        x: 1757
-        y: 2600
-        width: 427
-        height: 930
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_46
-      rect:
-        serializedVersion: 2
-        x: 2323
-        y: 2589
-        width: 417
-        height: 935
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_47
-      rect:
-        serializedVersion: 2
-        x: 2890
-        y: 2578
-        width: 406
-        height: 938
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_48
-      rect:
-        serializedVersion: 2
-        x: 3457
-        y: 2568
-        width: 395
-        height: 940
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_49
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 1344
-        width: 384
-        height: 940
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_50
-      rect:
-        serializedVersion: 2
-        x: 628
-        y: 1333
-        width: 374
-        height: 946
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_51
-      rect:
-        serializedVersion: 2
-        x: 1195
-        y: 1323
-        width: 364
-        height: 945
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_52
-      rect:
-        serializedVersion: 2
-        x: 1757
-        y: 1312
-        width: 357
-        height: 951
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_53
-      rect:
-        serializedVersion: 2
-        x: 2323
-        y: 1301
-        width: 342
-        height: 956
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_54
-      rect:
-        serializedVersion: 2
-        x: 2890
-        y: 1291
-        width: 331
-        height: 956
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_55
-      rect:
-        serializedVersion: 2
-        x: 3457
-        y: 1280
-        width: 320
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_56
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 56
-        width: 308
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_57
-      rect:
-        serializedVersion: 2
-        x: 623
-        y: 46
-        width: 299
-        height: 965
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_58
-      rect:
-        serializedVersion: 2
-        x: 1190
-        y: 40
-        width: 288
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_59
-      rect:
-        serializedVersion: 2
-        x: 1756
-        y: 29
-        width: 278
-        height: 967
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_60
-      rect:
-        serializedVersion: 2
-        x: 2323
-        y: 19
-        width: 262
-        height: 967
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Jump_61
-      rect:
-        serializedVersion: 2
-        x: 2885
-        y: 13
-        width: 256
+        x: 1977
+        y: 12
+        width: 246
         height: 968
       alignment: 0
       pivot: {x: 0, y: 0}
