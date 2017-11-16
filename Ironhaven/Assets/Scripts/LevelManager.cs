@@ -12,7 +12,6 @@ public class LevelManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
 	}
 
 	void OnTriggerEnter2D(Collider2D other) //kills player or enemy on contact, if they fall out of the level

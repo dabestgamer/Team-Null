@@ -10,6 +10,7 @@ TagManager:
   - EnemyWeapon
   - InterObject
   - Enemy
+  - EndOfLevel
   layers:
   - Default
   - TransparentFX
