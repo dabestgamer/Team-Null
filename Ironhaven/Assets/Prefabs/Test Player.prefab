@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 114311119782954794}
   - component: {fileID: 114197809542500158}
   - component: {fileID: 212742641695055092}
+  - component: {fileID: 114513434542895416}
   m_Layer: 8
   m_Name: Test Player
   m_TagString: Player
@@ -100,7 +101,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1201203720013186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.37, y: -0.93, z: 0}
+  m_LocalPosition: {x: -8.88, y: 0.14, z: 0}
   m_LocalScale: {x: 0.25271583, y: 0.25271583, z: 0.25271583}
   m_Children:
   - {fileID: 4074769689025800}
@@ -308,8 +309,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03afe86c43831d142b7f6b8bf4b802a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  heart: {fileID: 114513434542895416}
   maxHP: 5
   currentHP: 0
+--- !u!114 &114513434542895416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201203720013186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82b914f9af3e89418f118d64b2da84a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHearts: 5
+  currHP: 0
+  healthImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  healthSprites:
+  - {fileID: 21300000, guid: 72e74cac44b306742b6b2d87071a8dc0, type: 3}
+  - {fileID: 21300000, guid: d3c93c1ab6bf899449bb8beb0eed039b, type: 3}
 --- !u!212 &212742641695055092
 SpriteRenderer:
   m_ObjectHideFlags: 1
