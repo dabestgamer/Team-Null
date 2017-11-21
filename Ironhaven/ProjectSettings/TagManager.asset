@@ -11,6 +11,7 @@ TagManager:
   - InterObject
   - Enemy
   - EndOfLevel
+  - ShadowDemon
   layers:
   - Default
   - TransparentFX

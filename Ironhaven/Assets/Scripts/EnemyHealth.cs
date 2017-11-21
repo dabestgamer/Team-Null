@@ -15,6 +15,10 @@ public class EnemyHealth : MonoBehaviour {
 		{
 			maxHP = 5;
 		}
+		if (enemy.tag == "ShadowDemon")
+		{
+			maxHP = 7;
+		}
 		currentHP = maxHP;
 	}
 	

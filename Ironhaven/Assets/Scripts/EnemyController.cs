@@ -49,6 +49,8 @@ public class EnemyController : MonoBehaviour {
 
 	public float knockbackForce;
 
+	public bool groundObtained;
+
 	private EnemyHealth enemyHP;
 
 	public Material baseMaterial;
@@ -75,6 +77,7 @@ public class EnemyController : MonoBehaviour {
 		patrolRightEnd = new Vector3 (patrolMax, transform.position.y, 0); //right bound of patrol area
 		isHurt = false;
 		grounded = false;
+		groundObtained = false;
 
 		animator = gameObject.GetComponent<Animator> ();
 
@@ -97,10 +100,15 @@ public class EnemyController : MonoBehaviour {
 		}
 
 		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));
+		if (!grounded)
+		{
+			groundObtained = false;
+		}
 
 		rangeDetect (); //checks if player is in range
 		checkVertical (); //checks if player is vertically aligned with enemy
 		checkHorizontal (); //checks if player is horizontally aligned with enemy
+		fixPatrolBound();
 		checkHurt(); //checks if enemy is hurt
 		if (!isHurt) //cannot do anything while hurt
 		{
@@ -122,6 +130,10 @@ public class EnemyController : MonoBehaviour {
 		{
 			enemyName = "Ghost";
 		}
+		if (this.tag.Equals ("ShadowDemon"))
+		{
+			enemyName = "ShadowDemon";
+		}
 	}
 
 	void setStats() //sets traits of enemy
@@ -133,6 +145,18 @@ public class EnemyController : MonoBehaviour {
 			enemyMaxSpeed = 2f;
 			enemySpeed = enemyMaxSpeed;
 			patrolRange = 2f;
+			attackTime = 0.5f;
+			attackCooldown = 1f;
+			attackStartUpTimer = 0.5f;
+			knockbackForce = 200f;
+		}
+		if (enemyName == "ShadowDemon")
+		{
+			range = 10f;
+			attackRange = 1f;
+			enemyMaxSpeed = 2f;
+			enemySpeed = enemyMaxSpeed;
+			patrolRange = 1f;
 			attackTime = 0.5f;
 			attackCooldown = 1f;
 			attackStartUpTimer = 0.5f;
@@ -206,6 +230,29 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
+	void fixPatrolBound() //resets patrol bounds if enemy has landed, including from spawn
+	{
+		if (enemyName == "ShadowDemon")
+		{
+			if (grounded && !groundObtained)
+			{
+				if (transform.position.y != patrolRightEnd.y)
+				{
+					patrolRightEnd.y = transform.position.y;
+				}
+				if (transform.position.x != patrolLeftEnd.y)
+				{
+					patrolLeftEnd.y = transform.position.y;
+				}
+				if (transform.position.y != spawnY)
+				{
+					spawnY = transform.position.y;
+				}
+				groundObtained = true;
+			}
+		}
+	}
+
 	void enemyFight() //combat function
 	{
 		if (inAttackRange) //code for attack
@@ -276,7 +323,7 @@ public class EnemyController : MonoBehaviour {
 			//enemyMesh.material = damageMaterial; //enemy is red while hurt
 			enemySpeed = 0;
 		}
-		else //normal colors otherwise
+		else if(grounded || enemyName == "Ghost") //normal colors otherwise
 		{
 			//enemyMesh.material = baseMaterial;
 			enemySpeed = enemyMaxSpeed;
@@ -291,6 +338,10 @@ public class EnemyController : MonoBehaviour {
 		{
 			animator.SetTrigger ("ghostMove");
 		}
+		if(enemyName == "ShadowDemon")
+		{
+			animator.SetTrigger ("shadowDemonMove");
+		}
 	}
 
 	void setMove()
@@ -299,6 +350,10 @@ public class EnemyController : MonoBehaviour {
 		{
 			animator.SetTrigger ("ghostMove");
 		}
+		if(enemyName == "ShadowDemon")
+		{
+			animator.SetTrigger ("shadowDemonMove");
+		}
 	}
 
 	void setAttack()
@@ -306,6 +361,10 @@ public class EnemyController : MonoBehaviour {
 		if (enemyName == "Ghost")
 		{
 			animator.SetTrigger ("ghostAttack");
+		}
+		if(enemyName == "ShadowDemon")
+		{
+			animator.SetTrigger ("shadowDemonAttack");
 		}
 	}
 
@@ -384,14 +443,20 @@ public class EnemyController : MonoBehaviour {
 			if (enemyName == "Ghost") //damage inflicted is based on enemy type
 			{
 				playerHP.takeDamage (1);
-				if (playerHP.currentHP <= 0)
-				{
-					playerCharacter.setDeath ();
-				}
-				else
-				{
-					playerCharacter.setHurt ();
-				}
+			}
+			if(enemyName == "ShadowDemon")
+			{
+				//Debug.Log ("Hit the player!");
+				playerHP.takeDamage (2);
+			}
+
+			if (playerHP.currentHP <= 0) //if player's HP is 0, they die
+			{
+				playerCharacter.setDeath ();
+			}
+			else //otherwise, they are simply hurt
+			{
+				playerCharacter.setHurt ();
 			}
 
 			if (other.attachedRigidbody) //knocks player back

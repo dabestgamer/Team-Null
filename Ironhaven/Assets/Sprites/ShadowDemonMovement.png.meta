@@ -1,9 +1,71 @@
 fileFormatVersion: 2
 guid: 2e48249f781409f469dce1a6d607c101
-timeCreated: 1509480271
+timeCreated: 1511241487
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: ShadowDemonMovement_0
+    21300002: ShadowDemonMovement_1
+    21300004: ShadowDemonMovement_2
+    21300006: ShadowDemonMovement_3
+    21300008: ShadowDemonMovement_4
+    21300010: ShadowDemonMovement_5
+    21300012: ShadowDemonMovement_6
+    21300014: ShadowDemonMovement_7
+    21300016: ShadowDemonMovement_8
+    21300018: ShadowDemonMovement_9
+    21300020: ShadowDemonMovement_10
+    21300022: ShadowDemonMovement_11
+    21300024: ShadowDemonMovement_12
+    21300026: ShadowDemonMovement_13
+    21300028: ShadowDemonMovement_14
+    21300030: ShadowDemonMovement_15
+    21300032: ShadowDemonMovement_16
+    21300034: ShadowDemonMovement_17
+    21300036: ShadowDemonMovement_18
+    21300038: ShadowDemonMovement_19
+    21300040: ShadowDemonMovement_20
+    21300042: ShadowDemonMovement_21
+    21300044: ShadowDemonMovement_22
+    21300046: ShadowDemonMovement_23
+    21300048: ShadowDemonMovement_24
+    21300050: ShadowDemonMovement_25
+    21300052: ShadowDemonMovement_26
+    21300054: ShadowDemonMovement_27
+    21300056: ShadowDemonMovement_28
+    21300058: ShadowDemonMovement_29
+    21300060: ShadowDemonMovement_30
+    21300062: ShadowDemonMovement_31
+    21300064: ShadowDemonMovement_32
+    21300066: ShadowDemonMovement_33
+    21300068: ShadowDemonMovement_34
+    21300070: ShadowDemonMovement_35
+    21300072: ShadowDemonMovement_36
+    21300074: ShadowDemonMovement_37
+    21300076: ShadowDemonMovement_38
+    21300078: ShadowDemonMovement_39
+    21300080: ShadowDemonMovement_40
+    21300082: ShadowDemonMovement_41
+    21300084: ShadowDemonMovement_42
+    21300086: ShadowDemonMovement_43
+    21300088: ShadowDemonMovement_44
+    21300090: ShadowDemonMovement_45
+    21300092: ShadowDemonMovement_46
+    21300094: ShadowDemonMovement_47
+    21300096: ShadowDemonMovement_48
+    21300098: ShadowDemonMovement_49
+    21300100: ShadowDemonMovement_50
+    21300102: ShadowDemonMovement_51
+    21300104: ShadowDemonMovement_52
+    21300106: ShadowDemonMovement_53
+    21300108: ShadowDemonMovement_54
+    21300110: ShadowDemonMovement_55
+    21300112: ShadowDemonMovement_56
+    21300114: ShadowDemonMovement_57
+    21300116: ShadowDemonMovement_58
+    21300118: ShadowDemonMovement_59
+    21300120: ShadowDemonMovement_60
+    21300122: ShadowDemonMovement_61
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +102,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -65,9 +127,904 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ShadowDemonMovement_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 4059
+        width: 371
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 4058
+        width: 366
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 4058
+        width: 362
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_3
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 4056
+        width: 360
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_4
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 4056
+        width: 362
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_5
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 4056
+        width: 362
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_6
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 4056
+        width: 364
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_7
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 4054
+        width: 362
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3477
+        width: 364
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_9
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 3477
+        width: 364
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_10
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 3477
+        width: 367
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_11
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3476
+        width: 367
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_12
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 3475
+        width: 369
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_13
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 3475
+        width: 366
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_14
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 3475
+        width: 369
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_15
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 3475
+        width: 369
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2898
+        width: 370
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2897
+        width: 371
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_18
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2897
+        width: 371
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_19
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 2897
+        width: 371
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_20
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 2897
+        width: 371
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_21
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 2897
+        width: 371
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_22
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 2897
+        width: 372
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_23
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 2897
+        width: 374
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2319
+        width: 372
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_25
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2319
+        width: 371
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_26
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2319
+        width: 372
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_27
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2319
+        width: 374
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_28
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 2319
+        width: 373
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_29
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 2319
+        width: 371
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_30
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 2319
+        width: 371
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_31
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 2319
+        width: 372
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1743
+        width: 372
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_33
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1743
+        width: 375
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_34
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1743
+        width: 376
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_35
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1744
+        width: 377
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_36
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1745
+        width: 377
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_37
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1745
+        width: 378
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_38
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 1747
+        width: 378
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_39
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 1747
+        width: 380
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1173
+        width: 380
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_41
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1171
+        width: 380
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_42
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1169
+        width: 380
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_43
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1166
+        width: 380
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_44
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1163
+        width: 381
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_45
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1160
+        width: 380
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_46
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 1158
+        width: 379
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_47
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 1156
+        width: 380
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 578
+        width: 380
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_49
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 575
+        width: 380
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_50
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 574
+        width: 379
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_51
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 575
+        width: 377
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_52
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 577
+        width: 375
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_53
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 581
+        width: 373
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_54
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 584
+        width: 373
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_55
+      rect:
+        serializedVersion: 2
+        x: 2801
+        y: 588
+        width: 371
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_56
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 369
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_57
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 19
+        width: 368
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_58
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 24
+        width: 366
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_59
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 28
+        width: 362
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_60
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 30
+        width: 362
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonMovement_61
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 28
+        width: 364
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
