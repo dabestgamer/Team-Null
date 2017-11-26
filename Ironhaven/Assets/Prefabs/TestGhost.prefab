@@ -85,7 +85,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1779894790847486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 121.41801, y: 1.4248086, z: 0}
+  m_LocalPosition: {x: 6.06, y: -0.241, z: 0}
   m_LocalScale: {x: 0.5337981, y: 0.5337981, z: 0.5337981}
   m_Children:
   - {fileID: 4025182186507326}
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   test: 0
-  groundCheck: {fileID: 4864832493153126}
+  groundCheck: {fileID: 0}
   enemyName: 
   enemyMaxSpeed: 0
   enemySpeed: 0
@@ -294,6 +294,7 @@ MonoBehaviour:
   poisonTimerCountdown: 0
   poisonDuration: 0
   knockbackForce: 0
+  groundObtained: 0
   baseMaterial: {fileID: 2100000, guid: 016794d326f9ad544bb32ec7dc821946, type: 2}
   damageMaterial: {fileID: 2100000, guid: d2b12ef919b0e554e9f404e14bb4fb37, type: 2}
 --- !u!212 &212472043393559074
@@ -310,7 +311,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2ac490bd9f7a6f047843c7587042fbca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -328,7 +329,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -165403377
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c337a512c9cdce241961e2523ee53d30, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
