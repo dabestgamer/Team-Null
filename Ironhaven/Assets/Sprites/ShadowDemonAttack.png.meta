@@ -1,19 +1,17 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: c7682a75ee8bec946acc9b45aa5067df
-timeCreated: 1510116670
-=======
-<<<<<<< HEAD
-guid: 2dfaf841b1ffedb45b94adb586908562
-timeCreated: 1510240088
-=======
-guid: 8260de363b64fe640b9cee4473a4ba39
-timeCreated: 1510254351
->>>>>>> 1d84e4f5260bf9eb088cbea49b914b7621b2c3ac
->>>>>>> 08f8b0a1c6b73e703b5fe98505e81bb31896745b
+timeCreated: 1511263568
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: ShadowDemonAttack_0
+    21300002: ShadowDemonAttack_1
+    21300004: ShadowDemonAttack_2
+    21300006: ShadowDemonAttack_3
+    21300008: ShadowDemonAttack_4
+    21300010: ShadowDemonAttack_5
+    21300012: ShadowDemonAttack_6
+    21300014: ShadowDemonAttack_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -46,11 +44,11 @@ TextureImporter:
     mipBias: -1
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +73,148 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ShadowDemonAttack_0
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 348
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonAttack_1
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 33
+        width: 388
+        height: 659
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonAttack_2
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 14
+        width: 448
+        height: 660
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonAttack_3
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 0
+        width: 368
+        height: 654
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonAttack_4
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 0
+        width: 397
+        height: 657
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonAttack_5
+      rect:
+        serializedVersion: 2
+        x: 4708
+        y: 2
+        width: 411
+        height: 658
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonAttack_6
+      rect:
+        serializedVersion: 2
+        x: 5646
+        y: 2
+        width: 406
+        height: 659
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowDemonAttack_7
+      rect:
+        serializedVersion: 2
+        x: 6599
+        y: 0
+        width: 385
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

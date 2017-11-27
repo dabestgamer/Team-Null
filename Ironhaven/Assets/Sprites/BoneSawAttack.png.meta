@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bef151aefd7d03c4daab5e7c195b5936
-timeCreated: 1510688462
+timeCreated: 1510856021
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -44,6 +44,14 @@ TextureImporter:
     21300074: BoneSawAttack_37
     21300076: BoneSawAttack_38
     21300078: BoneSawAttack_39
+    21300080: BoneSawAttack_40
+    21300082: BoneSawAttack_41
+    21300084: BoneSawAttack_42
+    21300086: BoneSawAttack_43
+    21300088: BoneSawAttack_44
+    21300090: BoneSawAttack_45
+    21300092: BoneSawAttack_46
+    21300094: BoneSawAttack_47
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -148,12 +156,12 @@ TextureImporter:
       name: BoneSawAttack_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6734
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 42
+        y: 7203
+        width: 474
+        height: 971
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +170,12 @@ TextureImporter:
       name: BoneSawAttack_1
       rect:
         serializedVersion: 2
-        x: 728
-        y: 6734
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 878
+        y: 7205
+        width: 470
+        height: 969
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +184,12 @@ TextureImporter:
       name: BoneSawAttack_2
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 6734
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1704
+        y: 7203
+        width: 476
+        height: 971
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,12 +198,12 @@ TextureImporter:
       name: BoneSawAttack_3
       rect:
         serializedVersion: 2
-        x: 2184
-        y: 6734
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2539
+        y: 7203
+        width: 473
+        height: 971
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,12 +212,12 @@ TextureImporter:
       name: BoneSawAttack_4
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 6734
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3382
+        y: 7203
+        width: 460
+        height: 971
+      alignment: 9
+      pivot: {x: 0.28, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +226,12 @@ TextureImporter:
       name: BoneSawAttack_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5772
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 31
+        y: 6176
+        width: 453
+        height: 969
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,12 +240,12 @@ TextureImporter:
       name: BoneSawAttack_6
       rect:
         serializedVersion: 2
-        x: 728
-        y: 5772
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 867
+        y: 6173
+        width: 441
+        height: 972
+      alignment: 9
+      pivot: {x: 0.28, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +254,12 @@ TextureImporter:
       name: BoneSawAttack_7
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 5772
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1706
+        y: 6174
+        width: 432
+        height: 971
+      alignment: 9
+      pivot: {x: 0.29, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,12 +268,12 @@ TextureImporter:
       name: BoneSawAttack_8
       rect:
         serializedVersion: 2
-        x: 2184
-        y: 5772
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2538
+        y: 6174
+        width: 421
+        height: 971
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,12 +282,12 @@ TextureImporter:
       name: BoneSawAttack_9
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 5772
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3374
+        y: 6174
+        width: 405
+        height: 971
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +296,12 @@ TextureImporter:
       name: BoneSawAttack_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4810
-        width: 728
-        height: 962
+        x: 3778
+        y: 6797
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,12 +310,12 @@ TextureImporter:
       name: BoneSawAttack_11
       rect:
         serializedVersion: 2
-        x: 728
-        y: 4810
-        width: 728
-        height: 962
+        x: 3770
+        y: 6777
+        width: 12
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -316,12 +324,12 @@ TextureImporter:
       name: BoneSawAttack_12
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 4810
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 5145
+        width: 406
+        height: 971
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,12 +338,12 @@ TextureImporter:
       name: BoneSawAttack_13
       rect:
         serializedVersion: 2
-        x: 2184
-        y: 4810
-        width: 728
-        height: 962
+        x: 398
+        y: 5844
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -344,12 +352,12 @@ TextureImporter:
       name: BoneSawAttack_14
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 4810
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 868
+        y: 5144
+        width: 434
+        height: 972
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -358,12 +366,12 @@ TextureImporter:
       name: BoneSawAttack_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3848
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1702
+        y: 5145
+        width: 501
+        height: 971
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -372,12 +380,12 @@ TextureImporter:
       name: BoneSawAttack_16
       rect:
         serializedVersion: 2
-        x: 728
-        y: 3848
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2524
+        y: 5144
+        width: 579
+        height: 972
+      alignment: 9
+      pivot: {x: 0.23, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,12 +394,12 @@ TextureImporter:
       name: BoneSawAttack_17
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 3848
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3362
+        y: 5145
+        width: 631
+        height: 971
+      alignment: 9
+      pivot: {x: 0.2, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -400,12 +408,12 @@ TextureImporter:
       name: BoneSawAttack_18
       rect:
         serializedVersion: 2
-        x: 2184
-        y: 3848
-        width: 728
-        height: 962
+        x: 1302
+        y: 5820
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,12 +422,12 @@ TextureImporter:
       name: BoneSawAttack_19
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 3848
-        width: 728
-        height: 962
+        x: 1306
+        y: 5788
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -428,12 +436,12 @@ TextureImporter:
       name: BoneSawAttack_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2886
-        width: 728
-        height: 962
+        x: 426
+        y: 5784
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -442,12 +450,12 @@ TextureImporter:
       name: BoneSawAttack_21
       rect:
         serializedVersion: 2
-        x: 728
-        y: 2886
-        width: 728
-        height: 962
+        x: 418
+        y: 5780
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,12 +464,12 @@ TextureImporter:
       name: BoneSawAttack_22
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 2886
-        width: 728
-        height: 962
+        x: 1306
+        y: 5772
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,12 +478,12 @@ TextureImporter:
       name: BoneSawAttack_23
       rect:
         serializedVersion: 2
-        x: 2184
-        y: 2886
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 14
+        y: 4116
+        width: 683
+        height: 971
+      alignment: 9
+      pivot: {x: 0.2, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -484,12 +492,12 @@ TextureImporter:
       name: BoneSawAttack_24
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 2886
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 846
+        y: 4115
+        width: 730
+        height: 972
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -498,12 +506,12 @@ TextureImporter:
       name: BoneSawAttack_25
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1924
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1674
+        y: 4116
+        width: 768
+        height: 971
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -512,12 +520,12 @@ TextureImporter:
       name: BoneSawAttack_26
       rect:
         serializedVersion: 2
-        x: 728
-        y: 1924
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2506
+        y: 4115
+        width: 792
+        height: 972
+      alignment: 9
+      pivot: {x: 0.15, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -526,12 +534,12 @@ TextureImporter:
       name: BoneSawAttack_27
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 1924
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3343
+        y: 4116
+        width: 787
+        height: 971
+      alignment: 9
+      pivot: {x: 0.19, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -540,12 +548,12 @@ TextureImporter:
       name: BoneSawAttack_28
       rect:
         serializedVersion: 2
-        x: 2184
-        y: 1924
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 3086
+        width: 788
+        height: 972
+      alignment: 9
+      pivot: {x: 0.16, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -554,12 +562,12 @@ TextureImporter:
       name: BoneSawAttack_29
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 1924
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 846
+        y: 3087
+        width: 763
+        height: 971
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -568,12 +576,12 @@ TextureImporter:
       name: BoneSawAttack_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 962
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1686
+        y: 3086
+        width: 748
+        height: 972
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -582,12 +590,12 @@ TextureImporter:
       name: BoneSawAttack_31
       rect:
         serializedVersion: 2
-        x: 728
-        y: 962
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2523
+        y: 3087
+        width: 735
+        height: 971
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -596,12 +604,12 @@ TextureImporter:
       name: BoneSawAttack_32
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 962
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3360
+        y: 3087
+        width: 721
+        height: 971
+      alignment: 9
+      pivot: {x: 0.18, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -610,12 +618,12 @@ TextureImporter:
       name: BoneSawAttack_33
       rect:
         serializedVersion: 2
-        x: 2184
-        y: 962
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 26
+        y: 2058
+        width: 697
+        height: 971
+      alignment: 9
+      pivot: {x: 0.19, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -624,12 +632,12 @@ TextureImporter:
       name: BoneSawAttack_34
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 962
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 870
+        y: 2058
+        width: 675
+        height: 971
+      alignment: 9
+      pivot: {x: 0.2, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -638,12 +646,12 @@ TextureImporter:
       name: BoneSawAttack_35
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1710
+        y: 2058
+        width: 653
+        height: 971
+      alignment: 9
+      pivot: {x: 0.2, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -652,12 +660,12 @@ TextureImporter:
       name: BoneSawAttack_36
       rect:
         serializedVersion: 2
-        x: 728
-        y: 0
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2550
+        y: 2058
+        width: 623
+        height: 971
+      alignment: 9
+      pivot: {x: 0.21, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -666,12 +674,12 @@ TextureImporter:
       name: BoneSawAttack_37
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 0
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3390
+        y: 2057
+        width: 599
+        height: 972
+      alignment: 9
+      pivot: {x: 0.22, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -680,12 +688,12 @@ TextureImporter:
       name: BoneSawAttack_38
       rect:
         serializedVersion: 2
-        x: 2184
-        y: 0
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 47
+        y: 1029
+        width: 580
+        height: 971
+      alignment: 9
+      pivot: {x: 0.23, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -694,12 +702,124 @@ TextureImporter:
       name: BoneSawAttack_39
       rect:
         serializedVersion: 2
-        x: 2912
-        y: 0
-        width: 728
-        height: 962
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 883
+        y: 1029
+        width: 574
+        height: 971
+      alignment: 9
+      pivot: {x: 0.24, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoneSawAttack_40
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1028
+        width: 565
+        height: 972
+      alignment: 9
+      pivot: {x: 0.24, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoneSawAttack_41
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 1029
+        width: 563
+        height: 971
+      alignment: 9
+      pivot: {x: 0.24, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoneSawAttack_42
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 1029
+        width: 549
+        height: 971
+      alignment: 9
+      pivot: {x: 0.24, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoneSawAttack_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 537
+        height: 969
+      alignment: 9
+      pivot: {x: 0.24, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoneSawAttack_44
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 3
+        width: 532
+        height: 968
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoneSawAttack_45
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 6
+        width: 517
+        height: 965
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoneSawAttack_46
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 6
+        width: 502
+        height: 965
+      alignment: 9
+      pivot: {x: 0.26, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BoneSawAttack_47
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 6
+        width: 489
+        height: 965
+      alignment: 9
+      pivot: {x: 0.26, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

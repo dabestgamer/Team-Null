@@ -616,7 +616,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: PlayerWalk
-  m_Speed: 10
+  m_Speed: 7
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101931603672525496}
@@ -672,7 +672,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: PlayerBoneSawAttack
-  m_Speed: 12
+  m_Speed: 10
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101828994179933948}
@@ -729,7 +729,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: PlayerKnifeAttack
-  m_Speed: 12
+  m_Speed: 10
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101544375121698306}
@@ -755,7 +755,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: PlayerJump
-  m_Speed: 5
+  m_Speed: 3
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101856824860736024}
@@ -785,7 +785,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: PlayerAttack
-  m_Speed: 12
+  m_Speed: 8
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101508483018045010}
@@ -836,7 +836,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: PlayerScalpelAttack
-  m_Speed: 12
+  m_Speed: 10
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101695407460082706}
@@ -865,7 +865,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102277678806467536}
-    m_Position: {x: 396, y: -24, z: 0}
+    m_Position: {x: 432, y: -36, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102143358660374654}
     m_Position: {x: 168, y: -12, z: 0}
@@ -897,7 +897,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -84, y: 24, z: 0}
+  m_AnyStatePosition: {x: -36, y: 12, z: 0}
   m_EntryPosition: {x: 432, y: -96, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

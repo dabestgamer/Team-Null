@@ -7,12 +7,24 @@ public class Inventory : MonoBehaviour {
 	public GameObject[] inventory = new GameObject[2]; //Creating an array to hold our items, we decided that we can only hold 2 items at a time.
 	public GameObject droppedWeapon;
 
+	public void Awake()
+	{
+		
+	}
 
 	public void AddItem(GameObject item){
 
 		bool itemAdded = false;
+		bool duplicate = false;
 
 		for (int i = 0; i < inventory.Length; i++) {
+			if (inventory[i] != null && inventory [i].name == item.name) //Player cannot pick up another of an item they already have.
+			{
+				duplicate = true;
+				//Debug.Log ("Duplicate item.");
+				break;
+			}
+
 			if (inventory [i] == null) { // looking in each spot of the inventry until an empty spot is found.
 				inventory[i] = item;
 				//Debug.Log (item.name + " was added");
@@ -23,10 +35,10 @@ public class Inventory : MonoBehaviour {
 			}
 		}
 		//If the inventory is full
-		if (itemAdded == false) {
+		if (itemAdded == false && duplicate == false) {
 			Vector3 itemPos = item.transform.position;// Storing the current position of the item that is to be picked up.
 			//inventory [1].SetActive (true); un comment this to get the object to re appear at original position when dropped.
-			droppedWeapon = Instantiate(inventory[0], itemPos, Quaternion.identity);// Istantiating the dropped object where the player is standing.
+			droppedWeapon = Instantiate(inventory[0], itemPos, Quaternion.Euler(0,180,0));// Istantiating the dropped object where the player is standing.
 			droppedWeapon.name = inventory[0].name; //Changing the name of the Instantiated object(clone) to be the same name as the object in the inventory.
 			droppedWeapon.SetActive(true);//Setting the active to true in order to show the Instantiated object.
 			Destroy(inventory[0]);
@@ -50,5 +62,16 @@ public class Inventory : MonoBehaviour {
 		inventory[1] = item3; // setting the weapon in the temporary slot into the second slot.
 	}
 
-
+	public void reloadItem(GameObject item)
+	{
+		for (int i = 0; i < inventory.Length; i++) {
+			if (inventory [i] == null) { // looking in each spot of the inventry until an empty spot is found.
+				inventory[i] = item;
+				Debug.Log (item.name + " was reloaded.");
+				//Debug.Log (item.name + " was added");
+				//Make the object de activate to similate object being picked up.
+				break;
+			}
+		}
+	}
 }

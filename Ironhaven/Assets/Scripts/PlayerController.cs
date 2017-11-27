@@ -62,6 +62,22 @@ public class PlayerController : MonoBehaviour
 		rb2d = GetComponent<Rigidbody2D> ();
 		testHitBox = this.transform.Find("AttackBox"); //***TEST FOR ATTACKING HITBOX***
 		testHitBox.gameObject.SetActive (false); //Makes hitbox (displayed red) not appear on startup
+
+		if (GlobalControl.Instance.item1 == null) {
+			Debug.Log ("No item 1 to load.");
+			if (GlobalControl.Instance.item2 == null) {
+				Debug.Log ("No item 2 to load.");
+			}
+		}
+
+		if (GlobalControl.Instance.item1 != null) {
+			Debug.Log ("Loading item 1...");
+			inventory.reloadItem (GlobalControl.Instance.item1);
+		}
+		if (GlobalControl.Instance.item2 != null) {
+			Debug.Log ("Loading item 2...");
+			inventory.reloadItem (GlobalControl.Instance.item2);
+		}
 	}
 	
 	// Update is called once per frame
@@ -92,7 +108,7 @@ public class PlayerController : MonoBehaviour
 			inventory.switchWeapons (inventory.inventory [0], inventory.inventory [1]);
 		}
 
-
+		//saveInventory ();
 	}
 
 	void FixedUpdate()
@@ -318,10 +334,21 @@ public class PlayerController : MonoBehaviour
 			{
 				if (inventory.inventory[0].name == "Bone Saw")
 				{
-					enemyHP.addDamage (5);
+					if (enemy.enemyName == "ShadowDemon")
+					{
+						enemyHP.addDamage (5);
+					}
+					else if(enemy.enemyName == "Ghost")
+					{
+						enemyHP.addDamage (1);
+					}
 				}
 				else if (inventory.inventory[0].name == "Knife") {
-					enemyHP.addDamage (3);
+					if (enemy.enemyName == "Ghost") {
+						enemyHP.addDamage (3);
+					} else if (enemy.enemyName == "ShadowDemon") {
+						enemyHP.addDamage (1);
+					}
 				}
 				else if (inventory.inventory[0].name == "Scalpel")
 				{
@@ -351,6 +378,24 @@ public class PlayerController : MonoBehaviour
 			//Debug.Log ("Player: Hit by the enemy!");
 			hurt = true;
 			hurtTimerCountdown = hurtTime;
+		}
+
+		if (other.gameObject.tag == "EndOfLevel")
+		{
+			//Debug.Log ("Saving inventory...");
+			saveInventory ();
+		}
+	}
+
+	public void saveInventory() //saves inventory
+	{
+		if (inventory.inventory [0] != null) {
+			GlobalControl.Instance.item1 = inventory.inventory [0];
+			DontDestroyOnLoad (inventory.inventory [0]);
+		}
+		if (inventory.inventory [1] != null) {
+			GlobalControl.Instance.item2 = inventory.inventory [1];
+			DontDestroyOnLoad (inventory.inventory [1]);
 		}
 	}
 }

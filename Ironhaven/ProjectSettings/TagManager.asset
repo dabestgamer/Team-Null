@@ -10,6 +10,9 @@ TagManager:
   - EnemyWeapon
   - InterObject
   - Enemy
+  - EndOfLevel
+  - ShadowDemon
+  - EnemyTrigger
   layers:
   - Default
   - TransparentFX
@@ -46,4 +49,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2885838621
+    locked: 0
+  - name: Background2
+    uniqueID: 2433363285
+    locked: 0
+  - name: Background3
+    uniqueID: 4166311483
+    locked: 0
+  - name: Character
+    uniqueID: 4129563919
+    locked: 0
+  - name: Power-ups
+    uniqueID: 2743817895
     locked: 0

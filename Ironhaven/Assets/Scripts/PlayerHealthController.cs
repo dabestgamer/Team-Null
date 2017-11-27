@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement; //Needed to be able reload a scene
 
 public class PlayerHealthController : MonoBehaviour {
 
+	public HeartScript heart; //Adding this so the Heart script and the player can communicate with eachother.
 	public int maxHP = 5;
 	public int currentHP = 0;
 
@@ -31,6 +32,7 @@ public class PlayerHealthController : MonoBehaviour {
 	public void takeDamage(int damage) //inflicts damage to player
 	{
 		currentHP -= damage;
+		heart.loseHeart(damage); // The damage that is taken, is how many hearts is to be lost on the display.
 		if (currentHP <= 0) //player dies
 		{
 			currentHP = 0;
