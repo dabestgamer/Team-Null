@@ -334,10 +334,21 @@ public class PlayerController : MonoBehaviour
 			{
 				if (inventory.inventory[0].name == "Bone Saw")
 				{
-					enemyHP.addDamage (5);
+					if (enemy.enemyName == "ShadowDemon")
+					{
+						enemyHP.addDamage (5);
+					}
+					else if(enemy.enemyName == "Ghost")
+					{
+						enemyHP.addDamage (1);
+					}
 				}
 				else if (inventory.inventory[0].name == "Knife") {
-					enemyHP.addDamage (3);
+					if (enemy.enemyName == "Ghost") {
+						enemyHP.addDamage (3);
+					} else if (enemy.enemyName == "ShadowDemon") {
+						enemyHP.addDamage (1);
+					}
 				}
 				else if (inventory.inventory[0].name == "Scalpel")
 				{

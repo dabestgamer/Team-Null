@@ -12,6 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Over Screen.unity
     guid: 6559b1b7e551ab2418a2975ab5decba0
   - enabled: 1
+    path: Assets/Scenes/Intro Text 1.unity
+    guid: f186fe1ad26588e48928e563d6761352
+  - enabled: 1
+    path: Assets/Scenes/Intro Text 2.unity
+    guid: 61998ce66ae27a64f9dbc2c3cbe68eab
+  - enabled: 1
+    path: Assets/Scenes/Intro Text 3.unity
+    guid: 88738a71b9e02604ca9131fdf6fa53a8
+  - enabled: 1
+    path: Assets/Scenes/Intro Text 4.unity
+    guid: 2bcf1694a7ebc604f994b91a16d1c57b
+  - enabled: 1
     path: Assets/Scenes/Test Level.unity
     guid: c0f47563029b34646b4f60f4b96536dd
   - enabled: 1
