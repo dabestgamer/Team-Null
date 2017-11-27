@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - EndOfLevel
   - ShadowDemon
+  - EnemyTrigger
   layers:
   - Default
   - TransparentFX
