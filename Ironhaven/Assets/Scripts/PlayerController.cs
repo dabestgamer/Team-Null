@@ -37,6 +37,14 @@ public class PlayerController : MonoBehaviour
 
 	public Inventory inventory; // Making a slot to hold the inventory script for use in getting the inventory array that holds the weapons.
 
+	public AudioClip playerHitEnemy;
+	public AudioClip playerHitEnemyWithWeapon;
+	public AudioClip playerHitEnemyWithGoodWeapon;
+	public AudioClip playerKilledEnemy;
+	public AudioClip playerWasHit;
+	public AudioClip playerDied;
+	public AudioSource MusicSource;
+
 	// Use this for initialization
 	void Awake ()
 	{
@@ -255,6 +263,7 @@ public class PlayerController : MonoBehaviour
 		else
 		{*/
 			animator.SetTrigger ("playerHit");
+			playSound (playerWasHit);
 		//}
 	}
 
@@ -307,6 +316,7 @@ public class PlayerController : MonoBehaviour
 	public void setDeath() //function that triggers the death animation, public so enemies call it when they hit player
 	{
 		animator.SetTrigger ("playerDeath");
+		playSound (playerDied);
 	}
 
 	void checkHurt() //checks if hurt
@@ -337,22 +347,27 @@ public class PlayerController : MonoBehaviour
 					if (enemy.enemyName == "ShadowDemon")
 					{
 						enemyHP.addDamage (5);
+						playSound (playerHitEnemyWithGoodWeapon);
 					}
 					else if(enemy.enemyName == "Ghost")
 					{
 						enemyHP.addDamage (1);
+						playSound (playerHitEnemyWithWeapon);
 					}
 				}
 				else if (inventory.inventory[0].name == "Knife") {
 					if (enemy.enemyName == "Ghost") {
 						enemyHP.addDamage (3);
+						playSound (playerHitEnemyWithGoodWeapon);
 					} else if (enemy.enemyName == "ShadowDemon") {
 						enemyHP.addDamage (1);
+						playSound (playerHitEnemyWithWeapon);
 					}
 				}
 				else if (inventory.inventory[0].name == "Scalpel")
 				{
 					enemyHP.addDamage (2);
+					playSound (playerHitEnemyWithWeapon);
 				}
 				else if(inventory.inventory[0].name == "Syringe")
 				{
@@ -363,6 +378,7 @@ public class PlayerController : MonoBehaviour
 			else
 			{
 				enemyHP.addDamage (1);
+				playSound (playerHitEnemy);
 			}
 
 			Vector3 dir = other.transform.position - transform.position;
@@ -385,6 +401,12 @@ public class PlayerController : MonoBehaviour
 			//Debug.Log ("Saving inventory...");
 			saveInventory ();
 		}
+	}
+
+	void playSound(AudioClip sfx)
+	{
+		MusicSource.clip = sfx;
+		MusicSource.Play ();
 	}
 
 	public void saveInventory() //saves inventory
