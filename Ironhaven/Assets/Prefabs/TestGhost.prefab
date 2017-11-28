@@ -247,6 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHP: 0
   maxHP: 0
+  Playertext: {fileID: 0}
 --- !u!114 &114914931060955354
 MonoBehaviour:
   m_ObjectHideFlags: 1

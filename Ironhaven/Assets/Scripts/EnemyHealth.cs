@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour {
 
 	public int currentHP;
 	public int maxHP;
 	private EnemyController enemy;
+	public PlayerText Playertext;
 
 	// Use this for initialization
 	void Awake () {
+		Playertext = GameObject.FindGameObjectWithTag ("Player").GetComponentInChildren<PlayerText> ();
 		enemy = GetComponent<EnemyController> ();
 		if (enemy.tag == "Ghost")
 		{
@@ -38,9 +41,13 @@ public class EnemyHealth : MonoBehaviour {
 			killEnemy ();
 		}
 	}
-
+		
 	void killEnemy() //kills enemy
 	{
+		//Debug.Log (Time.realtimeSinceStartup);
+		Playertext.enemyKilled (gameObject.tag);
+		//text.enemyKilled (gameObject.tag);
 		Destroy (gameObject);
+
 	}
 }

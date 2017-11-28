@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
 	public float velocity;
 
 	public Inventory inventory; // Making a slot to hold the inventory script for use in getting the inventory array that holds the weapons.
+	public Canvas canvas;
 
 	// Use this for initialization
 	void Awake ()
@@ -124,6 +125,16 @@ public class PlayerController : MonoBehaviour
 		}
 		if(Input.GetKey("left")) //moves player left
 		{
+			if (canvas.enabled == true) {//Changing the rotation for the canvas based on if the player is facing left or not.
+
+				Quaternion temp = canvas.GetComponent<RectTransform> ().rotation;
+				//temp.y = 1;
+				//Vector3 swap = new Vector3(0,180,0);
+				temp.Set (0, 180, 0, 0);
+				//Debug.Log ("Hello there");
+				canvas.GetComponent<RectTransform> ().localRotation = temp;
+			}
+
 			if (facingRight) //flips player if they are facing right
 			{
 				Flip ();
@@ -134,6 +145,15 @@ public class PlayerController : MonoBehaviour
 		if ((Input.GetKey ("right") || Input.GetKey ("left")) && !hurt && grounded) //player's walk animation function is called if not hurt and is on the ground
 		{
 			setWalk ();
+			if (canvas.enabled == true && !facingRight) {//Changing the rotation for the canvas based on if the player is facing left or not.
+
+				Quaternion temp = canvas.GetComponent<RectTransform> ().rotation;
+				//temp.y = 1;
+				//Vector3 swap = new Vector3(0,180,0);
+				temp.Set (0, 180, 0, 0);
+				//Debug.Log ("Hello there");
+				canvas.GetComponent<RectTransform> ().localRotation = temp;
+			}
 		}
 		else if(!attacking)
 		{
@@ -160,6 +180,12 @@ public class PlayerController : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+
+		Quaternion temp = canvas.GetComponent<RectTransform> ().rotation;
+		temp.y = 0;
+		//Vector3 swap = new Vector3(0,180,0);
+		//temp.Set (0, 180, 0, 0);
+		canvas.GetComponent<RectTransform> ().localRotation = temp;
 	}
 
 	void countdownTimer() //timer decrement
