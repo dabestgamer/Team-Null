@@ -67,7 +67,7 @@ public class PlayerText : MonoBehaviour {
 	public void enemyKilled(string tag){
 		if (tag == "Ghost") {
 			textchange.text = "Take that you dumb Ghost!";
-//			Debug.Log ("Ghost dialogue should pop up");
+			Debug.Log ("Ghost dialogue should pop up");
 			canvas.enabled = true;
 			time = Time.frameCount;
 			stopTime = time + waitTime;
