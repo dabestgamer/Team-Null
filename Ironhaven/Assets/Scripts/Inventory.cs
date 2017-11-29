@@ -6,9 +6,11 @@ public class Inventory : MonoBehaviour {
 
 	public GameObject[] inventory = new GameObject[2]; //Creating an array to hold our items, we decided that we can only hold 2 items at a time.
 	public GameObject droppedWeapon;
+	private PlayerText playerText;
 
 	public void Awake()
 	{
+		playerText =  gameObject.GetComponentInChildren<PlayerText>();
 		
 	}
 
@@ -28,6 +30,7 @@ public class Inventory : MonoBehaviour {
 			if (inventory [i] == null) { // looking in each spot of the inventry until an empty spot is found.
 				inventory[i] = item;
 				//Debug.Log (item.name + " was added");
+				playerText.weaponPickedUp(item);
 				itemAdded = true;
 				//Make the object de activate to similate object being picked up.
 				item.SendMessage ("DoInteraction");

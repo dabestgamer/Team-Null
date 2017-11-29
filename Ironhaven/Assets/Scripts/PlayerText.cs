@@ -39,9 +39,35 @@ public class PlayerText : MonoBehaviour {
 		//enemyKilled();
 	}
 
+	public void weaponPickedUp(GameObject item){
+		if (item.name == "Knife"){
+			textchange.text = "I have a knife!";
+			canvas.enabled = true;
+			time = Time.frameCount;
+			stopTime = time + waitTime;
+
+		}
+
+		else if(item.name == "Scalpel"){
+			textchange.text = "I have a Scalpel!";
+			canvas.enabled = true;
+			time = Time.frameCount;
+			stopTime = time + waitTime;
+		}
+
+		else if(item.name == "Bone Saw"){
+			textchange.text = "I have a Bone Saw!";
+			canvas.enabled = true;
+			time = Time.frameCount;
+			stopTime = time + waitTime;
+		}
+
+	}
+
 	public void enemyKilled(string tag){
 		if (tag == "Ghost") {
 			textchange.text = "Take that you dumb Ghost!";
+//			Debug.Log ("Ghost dialogue should pop up");
 			canvas.enabled = true;
 			time = Time.frameCount;
 			stopTime = time + waitTime;
