@@ -8,7 +8,7 @@ public class HeartScript : MonoBehaviour {
 	private int MAX = 5; //Maximum number of hearts
 	public int startingHearts = 5; // Starting number of hearts.
 	public int currHP;
-	private int maxHealth;
+//	private int maxHealth;
 	private int healthPerHeart = 1; // health per container, in the case that we make each container have more health
 	private PlayerHealthController health;
 
@@ -18,7 +18,7 @@ public class HeartScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		currHP = startingHearts * healthPerHeart; //If we choose to add more health per heart (ie. full heart to half heart to empty heart) this will make it easier
-		maxHealth = MAX * healthPerHeart;
+		//maxHealth = MAX * healthPerHeart;
 		checkHealth (); // Updating the current health
 	}
 

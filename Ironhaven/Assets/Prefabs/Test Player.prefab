@@ -542,6 +542,7 @@ MonoBehaviour:
   canvas: {fileID: 223718976746835114}
   textchange: {fileID: 0}
   waitTime: 150
+  talkFrequency: 1000
 --- !u!114 &114584032910801936
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -67,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1926858581232526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.45, y: -1.9, z: -0.109}
+  m_LocalPosition: {x: 7.5446615, y: -2.42, z: 0}
   m_LocalScale: {x: 0.999999, y: 0.84296, z: 0.9265}
   m_Children:
   - {fileID: 4782367947834492}
@@ -82,7 +82,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1520941147442582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: -0.3831, z: 1.93893}
+  m_LocalPosition: {x: -4, y: -0.3831, z: 0}
   m_LocalScale: {x: 1, y: 1.1862959, z: 1.0793308}
   m_Children: []
   m_Father: {fileID: 4113444033671054}
@@ -95,7 +95,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1920813113712850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: -0.30831, z: 1.93893}
+  m_LocalPosition: {x: 4, y: -0.30831, z: 0}
   m_LocalScale: {x: 1, y: 1.18628, z: 1.07932}
   m_Children: []
   m_Father: {fileID: 4113444033671054}
@@ -178,8 +178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34879e55c700b045b76e1bad40ad754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghostEnemy: {fileID: 1779894790847486, guid: 24aa8cc1a6f8fdc458efb2d8f37721f2, type: 2}
-  demonEnemy: {fileID: 1325890073546112, guid: 52181e127cbc5ad45945fd571ecb87c0, type: 2}
+  TurnOff: 0
+  enemy1: {fileID: 1779894790847486, guid: 24aa8cc1a6f8fdc458efb2d8f37721f2, type: 2}
+  enemy2: {fileID: 1779894790847486, guid: 24aa8cc1a6f8fdc458efb2d8f37721f2, type: 2}
   enemyPos1: {fileID: 4782367947834492}
   enemyPos2: {fileID: 4992782539125866}
   EnemyTrig: {fileID: 1926858581232526}

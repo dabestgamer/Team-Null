@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyTrigger : MonoBehaviour {
 
+	public bool TurnOff = false; //Give the script the ability to turn off or not.
 	public GameObject enemy1; //For holding the first enemy of which we will be instantiating.
 	public GameObject enemy2; //For holding the second enemy of which we will be instantiating.
 	public Transform enemyPos1;// Transform location of enemy 1.
@@ -31,10 +32,23 @@ public class EnemyTrigger : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.tag == "Player") {
-			Instantiate(enemy1, enemyPos1.position, enemyPos1.rotation);
-			Instantiate(enemy2, enemyPos2.position, enemyPos2.rotation);
+			if (enemy1 != null && enemy2 != null) {
+				Instantiate (enemy1, enemyPos1.position, enemyPos1.rotation);
+				Instantiate (enemy2, enemyPos2.position, enemyPos2.rotation);
+			} else if (enemy1 != null) {
+				Instantiate (enemy1, enemyPos1.position, enemyPos1.rotation);
+			} else if (enemy2 != null) {
+				Instantiate (enemy2, enemyPos2.position, enemyPos2.rotation);
+			} 
+			else {
+			}
+
+			//Instantiate(enemy1, enemyPos1.position, enemyPos1.rotation);
+			//Instantiate(enemy2, enemyPos2.position, enemyPos2.rotation);
 			//gameObject.GetComponent<BoxCollider2D> ().enabled = false; //TURNS OFF THE PLAYERS COLLIDER INSTEAD OF THE TRIGGER.
-			EnemyTrig.GetComponent<BoxCollider2D>().enabled = false;
+			if (TurnOff == true) {
+				EnemyTrig.GetComponent<BoxCollider2D> ().enabled = false;
+			}
 			//Vector3 enemypos = new playerpos ();
 			//Debug.Log (playerPos);
 
