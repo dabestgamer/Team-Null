@@ -11,7 +11,9 @@ public class PlayerText : MonoBehaviour {
 	public int waitTime = 0; //Adjustable amount of waiting time. (In frames)
 	private int TalkTime = 0;
 	public int talkFrequency =0;
-	private int count = 0; // used for cyclying through the player dialogue
+	private int Dialoguecount = 0; // used for cyclying through the player dialogue
+	private int ghostKillcount = 0;
+	private int demonKillcount = 0;
 	//private float stopTime;
 
 	void Awake(){
@@ -30,26 +32,26 @@ public class PlayerText : MonoBehaviour {
 	void Update () {
 		TalkTime = Time.frameCount;
 
-		if (TalkTime % talkFrequency == 0 && count == 0) {
+		if (TalkTime % talkFrequency == 0 && Dialoguecount == 0) {
 			textchange.text = "What was that noise?";
 			canvas.enabled = true;
 			time = Time.frameCount;
 			stopTime = time + waitTime;
-			count++;
+			Dialoguecount++;
 		}
-		else if (TalkTime % talkFrequency == 0 && count == 1 ) {
+		else if (TalkTime % talkFrequency == 0 && Dialoguecount == 1 ) {
 			textchange.text = "I need to get out of here.";
 			canvas.enabled = true;
 			time = Time.frameCount;
 			stopTime = time + waitTime;
-			count++;
+			Dialoguecount++;
 		}
-		else if (TalkTime % talkFrequency == 0 && count == 2) {
+		else if (TalkTime % talkFrequency == 0 && Dialoguecount == 2) {
 			textchange.text = "I won't stop until I get out of this place.";
 			canvas.enabled = true;
 			time = Time.frameCount;
 			stopTime = time + waitTime;
-			count = 0;
+			Dialoguecount = 0;
 		}
 		 
 
@@ -73,7 +75,7 @@ public class PlayerText : MonoBehaviour {
 			textchange.text = "Looks like I can hurt those flying creatures with this!";
 			canvas.enabled = true;
 			time = Time.frameCount;
-			stopTime = time + waitTime + 50; // Extra 50 due to longer sentence
+			stopTime = time + waitTime + 70; // Extra 50 due to longer sentence
 
 		}
 
@@ -85,28 +87,60 @@ public class PlayerText : MonoBehaviour {
 		}
 
 		else if(item.name == "Bone Saw"){
-			textchange.text = "I can cause some damage to those demons with this!";
+			textchange.text = "This can cause some damage to those demons!";
 			canvas.enabled = true;
 			time = Time.frameCount;
-			stopTime = time + waitTime +50;
+			stopTime = time + waitTime +70;
 		}
 
 	}
 
 	public void enemyKilled(string tag){
 		if (tag == "Ghost") {
-			textchange.text = "Take that you dumb Ghost!";
-			//Debug.Log ("Ghost dialogue should pop up");
-			canvas.enabled = true;
-			time = Time.frameCount;
-			stopTime = time + waitTime;
-
+			if (ghostKillcount == 0) {
+				textchange.text = "See you later!";
+				canvas.enabled = true;
+				time = Time.frameCount;
+				stopTime = time + waitTime;
+				ghostKillcount++;
+			} 
+			else if (ghostKillcount == 1) {
+				textchange.text = "Go back to where you came from!";
+				canvas.enabled = true;
+				time = Time.frameCount;
+				stopTime = time + waitTime+20;
+				ghostKillcount++;
+			}
+			else if (ghostKillcount == 2) {
+				textchange.text = "Take that you dumb ghost!";
+				canvas.enabled = true;
+				time = Time.frameCount;
+				stopTime = time + waitTime;
+				ghostKillcount=0;
+			}
 		}
 		else if (tag == "ShadowDemon"){
-			textchange.text = "Bye bye Demon!";
-			canvas.enabled = true;
-			time = Time.frameCount;
-			stopTime = time + waitTime;
+			if (demonKillcount == 0) {
+				textchange.text = "Be gone Demon!";
+				canvas.enabled = true;
+				time = Time.frameCount;
+				stopTime = time + waitTime;
+				demonKillcount++;
+			} 
+			else if (demonKillcount == 1) {
+				textchange.text = "You've met your match!";
+				canvas.enabled = true;
+				time = Time.frameCount;
+				stopTime = time + waitTime+20;
+				demonKillcount++;
+			}
+			else if (demonKillcount == 2) {
+				textchange.text = "Leave me alone!";
+				canvas.enabled = true;
+				time = Time.frameCount;
+				stopTime = time + waitTime;
+				demonKillcount=0;
+			}
 		}
 	}
 }

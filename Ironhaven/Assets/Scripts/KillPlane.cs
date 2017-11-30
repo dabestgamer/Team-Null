@@ -19,7 +19,7 @@ public class KillPlane : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other) //kills player or enemy on contact, if they fall out of the level
 	{
-		Debug.Log ("Touched something!");
+//		Debug.Log ("Touched something!");
 		if (other.gameObject.tag == "Player")
 		{
 			playerHP = other.gameObject.GetComponent<PlayerHealthController> ();

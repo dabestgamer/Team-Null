@@ -46,6 +46,7 @@ public class Inventory : MonoBehaviour {
 			droppedWeapon.SetActive(true);//Setting the active to true in order to show the Instantiated object.
 			Destroy(inventory[0]);
 
+			playerText.weaponPickedUp(item);
 			inventory [0] = item; // First item in the array of objects
 			item.SendMessage("DoInteraction");
 			//Debug.Log ("Inventory is full - Item was switched out with secondary weapon.");

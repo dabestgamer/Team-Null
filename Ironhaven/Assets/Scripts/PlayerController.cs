@@ -133,7 +133,7 @@ public class PlayerController : MonoBehaviour
 		}
 		if(Input.GetKey("left")) //moves player left
 		{
-			if (canvas.enabled == true) {//Changing the rotation for the canvas based on if the player is facing left or not.
+			if (canvas.enabled == true && !facingRight) {//Changing the rotation for the canvas based on if the player is facing left or not.
 
 				Quaternion temp = canvas.GetComponent<RectTransform> ().rotation;
 				//temp.y = 1;
@@ -165,7 +165,17 @@ public class PlayerController : MonoBehaviour
 		}
 		else if(!attacking)
 		{
-			setIdle ();
+			setIdle (); 
+			//MOST RECENT CHANGE TO THE CANVAS ROTATION.
+			if (canvas.enabled == true && !facingRight) {//Changing the rotation for the canvas based on if the player is facing left or not.
+
+				Quaternion temp = canvas.GetComponent<RectTransform> ().rotation;
+				//temp.y = 1;
+				//Vector3 swap = new Vector3(0,180,0);
+				temp.Set (0, 180, 0, 0);
+				//Debug.Log ("Hello there");
+				canvas.GetComponent<RectTransform> ().localRotation = temp;
+			}
 		}
 
 		if (jump) //only adds jumpforce when the jump button is initially pressed
