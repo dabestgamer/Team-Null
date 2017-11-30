@@ -464,5 +464,6 @@ MonoBehaviour:
   introTextBGM: {fileID: 8300000, guid: efd31e9fb6b36654baa480c32893384f, type: 3}
   tutorialBGM: {fileID: 8300000, guid: bb98f83ae312ea143a1ca664ad111c34, type: 3}
   levelOneBGM: {fileID: 8300000, guid: 0a87589722df9484ab989ab3c1641005, type: 3}
+  levelTwoBGM: {fileID: 8300000, guid: 9610dd0d575b4ba439328abf5f441435, type: 3}
   gameOverBGM: {fileID: 8300000, guid: 4df704e0c10699d4e8d39187fe68b331, type: 3}
   MusicSource: {fileID: 82043704418842670}

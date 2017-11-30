@@ -19,6 +19,7 @@ public class GlobalControl : MonoBehaviour {
 	public AudioClip introTextBGM;
 	public AudioClip tutorialBGM;
 	public AudioClip levelOneBGM;
+	public AudioClip levelTwoBGM;
 	public AudioClip gameOverBGM;
 	public AudioSource MusicSource;
 
@@ -36,13 +37,12 @@ public class GlobalControl : MonoBehaviour {
 
 	void Update()
 	{
-		if (SceneManager.GetActiveScene ().buildIndex == 0) //clears inventory if player goes to title screen
-		{
-			item1 = null;
-			item2 = null;
-		}
-
 		sceneName = SceneManager.GetActiveScene ().name;
+
+		if (sceneName == "Title Screen" || sceneName == "End of Game") //clears inventory if player goes to title screen or beats the game
+		{
+			clearItems ();
+		}
 
 		//only plays the title screen theme on the title screen
 
@@ -66,6 +66,10 @@ public class GlobalControl : MonoBehaviour {
 			musicChange (levelOneBGM);
 		}
 
+		if (sceneName == "Level 2") {
+			musicChange (levelTwoBGM);
+		}
+
 		if (sceneName == "End of Game") {
 			MusicSource.Stop ();
 		}
@@ -78,5 +82,11 @@ public class GlobalControl : MonoBehaviour {
 			MusicSource.clip = bgm;
 			MusicSource.Play ();
 		}
+	}
+
+	public void clearItems()
+	{
+		item1 = null;
+		item2 = null;
 	}
 }

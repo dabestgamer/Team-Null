@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class TitleScreenController : MonoBehaviour {
+
+	public Image black;
+	public Animator anim;
 
 	// Use this for initialization
 	void Start () {
@@ -14,11 +18,25 @@ public class TitleScreenController : MonoBehaviour {
 	void Update () {
 		if (Input.GetButtonDown ("Submit")) //loads first level
 		{
-			SceneManager.LoadScene (2);
+			StartCoroutine (FadeToNextScene ());
 		}
 		if (Input.GetButtonDown ("Cancel")) //quits game
 		{
-			Application.Quit ();
+			StartCoroutine (FadeToQuit ());
 		}
+	}
+
+	IEnumerator FadeToNextScene()
+	{
+		anim.SetBool ("Fade", true);
+		yield return new WaitUntil (() => black.color.a == 1);
+		SceneManager.LoadScene (2);
+	}
+
+	IEnumerator FadeToQuit()
+	{
+		anim.SetBool ("Fade", true);
+		yield return new WaitUntil (() => black.color.a == 1);
+		Application.Quit ();
 	}
 }

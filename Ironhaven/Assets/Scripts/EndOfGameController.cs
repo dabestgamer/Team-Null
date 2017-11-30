@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class EndOfGameController : MonoBehaviour {
+
+	public Image black;
+	public Animator anim;
 
 	// Use this for initialization
 	void Start () {
@@ -14,11 +18,18 @@ public class EndOfGameController : MonoBehaviour {
 	void Update () {
 		if (Input.GetButtonDown ("Submit")) //loads first level
 		{
-			SceneManager.LoadScene (2);
+			StartCoroutine(Fade(2));
 		}
 		if (Input.GetButtonDown ("Cancel")) //quits to title screen
 		{
-			SceneManager.LoadScene(0);
+			StartCoroutine(Fade(0));
 		}
+	}
+
+	IEnumerator Fade(int index)
+	{
+		anim.SetBool ("Fade", true);
+		yield return new WaitUntil (() => black.color.a == 1);
+		SceneManager.LoadScene (index);
 	}
 }
