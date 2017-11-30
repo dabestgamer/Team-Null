@@ -359,7 +359,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4157995502736270, guid: 16448fd8b3933b3419664c386f5cf4d9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.14
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 4157995502736270, guid: 16448fd8b3933b3419664c386f5cf4d9, type: 2}
       propertyPath: m_LocalPosition.z
@@ -661,7 +661,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4798123423998268, guid: 24aa8cc1a6f8fdc458efb2d8f37721f2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 18.37
+      value: 23.39
       objectReference: {fileID: 0}
     - target: {fileID: 4798123423998268, guid: 24aa8cc1a6f8fdc458efb2d8f37721f2, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1133,6 +1133,10 @@ Prefab:
       propertyPath: m_Name
       value: Bone Saw
       objectReference: {fileID: 0}
+    - target: {fileID: 1335785737242140, guid: f906bdbaaeb078b46a435884c928f909, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f906bdbaaeb078b46a435884c928f909, type: 2}
   m_IsPrefabParent: 0
@@ -1145,7 +1149,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4831807534730058, guid: 51a732f102ca6b743883773e11e3a0cd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 7.859
+      value: -1.55
       objectReference: {fileID: 0}
     - target: {fileID: 4831807534730058, guid: 51a732f102ca6b743883773e11e3a0cd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2008,7 +2012,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4903732236654576, guid: bfa8461185d0a084882518184a52e457, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.07
+      value: 13.73
       objectReference: {fileID: 0}
     - target: {fileID: 4903732236654576, guid: bfa8461185d0a084882518184a52e457, type: 2}
       propertyPath: m_LocalPosition.y
