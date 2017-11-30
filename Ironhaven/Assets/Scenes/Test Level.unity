@@ -522,12 +522,12 @@ Prefab:
     - target: {fileID: 224969200705995220, guid: b6c00d8b441aa214aa522d79e2d8a313,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1706.937
+      value: 0.8800001
       objectReference: {fileID: 0}
     - target: {fileID: 224969200705995220, guid: b6c00d8b441aa214aa522d79e2d8a313,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 945.4493
+      value: 8.76
       objectReference: {fileID: 0}
     - target: {fileID: 224527167178299434, guid: b6c00d8b441aa214aa522d79e2d8a313,
         type: 2}
@@ -559,6 +559,20 @@ Prefab:
       propertyPath: healthImages.Array.data[4]
       value: 
       objectReference: {fileID: 1129215591}
+    - target: {fileID: 1039199017396826, guid: b6c00d8b441aa214aa522d79e2d8a313, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114855088006789856, guid: b6c00d8b441aa214aa522d79e2d8a313,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 223718976746835114, guid: b6c00d8b441aa214aa522d79e2d8a313,
+        type: 2}
+      propertyPath: m_RenderMode
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b6c00d8b441aa214aa522d79e2d8a313, type: 2}
   m_IsPrefabParent: 0
@@ -940,12 +954,12 @@ Prefab:
     - target: {fileID: 224223372617625602, guid: 9e31ed8219ac8f54e99597c63f530968,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 423
+      value: 331.5
       objectReference: {fileID: 0}
     - target: {fileID: 224223372617625602, guid: 9e31ed8219ac8f54e99597c63f530968,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 238
+      value: 186.5
       objectReference: {fileID: 0}
     - target: {fileID: 224223372617625602, guid: 9e31ed8219ac8f54e99597c63f530968,
         type: 2}
@@ -1545,8 +1559,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1386458060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 423, y: 238, z: 0}
-  m_LocalScale: {x: 1.0575, y: 1.0575, z: 1.0575}
+  m_LocalPosition: {x: 331.5, y: 186.5, z: 0}
+  m_LocalScale: {x: 0.82875, y: 0.82875, z: 0.82875}
   m_Children:
   - {fileID: 1909860162}
   - {fileID: 388453948}
